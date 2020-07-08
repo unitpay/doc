@@ -6,7 +6,7 @@ structure:
     
 redirects:  
     article/5-signup: first_steps/registration.md
-    article/12-add-project: first_steps/adding-project.md
+    article/12-add-project: first_steps/adding-project/vk-project.md
     article/41-moderation: first_steps/moderation.md
     article/59-transfer-project: first_steps/project-transfer.md
     article/150-list-active-subscriptions: payments/recurring-payments/subscription-list.md
@@ -28,10 +28,5 @@ redirects:
     article/37-operator-codes: book-of-reference/operator-codes.md
     article/36-codes-payment-systems: book-of-reference/payment-system-codes.md
     article/78-qiwi-country-codes: book-of-reference/qiwi-country-codes.md
-    category/51-category: first_steps
-    category/153-api: payments/recurring-payments
-    category/54-api: payments
-    category/86-api: payouts
-    category/87-api: unitpay-management
-    category/66-category: book-of-reference
-    category/43-category: modules
+    article/168-telegram: other/telegram.md
+    article/252-article: online-cash-register/receipt_parameters.md
