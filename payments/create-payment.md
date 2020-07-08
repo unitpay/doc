@@ -88,21 +88,138 @@ sub getSignature {
 
 #### Успешный ответ
 
+{% tabs %}
+{% tab title="Redirect" %}
 ```text
-{"result": {
+{
+  "result": {
     "message": "Платеж успешно создан.",
     "paymentId": "1400072",
+    "receiptUrl": "https://unitpay.money/pay/receipt/111-ab34c22",
     "type": "redirect",
     "redirectUrl": "http://unitpay.ru/pay/redirect/111-ab34c22" 
-}}
+  }
+}
 ```
+{% endtab %}
 
-|  | Значение | Описание |
-| :--- | :--- | :--- |
-| **message** | строка | Информация о результате формирования платежа |
-| **type**  | строка | redirect — требуется переадресация на шлюз платежной платформы invoice — счет создан автоматически, оплата производится пользователем посредством личного кабинета платежной системы  |
-| **paymentId**  | число | Номер платежа в системе UnitPay |
-| **redirectUrl** | строка | URL для переадресации пользователя на шлюз платежной платформы. Если платеж не требует переадресации, то данный параметр будет отсутствовать |
+{% tab title="Response" %}
+```text
+{
+  "result": {
+    "message": "Платеж успешно создан.",
+    "paymentId": "1400072",
+    "receiptUrl": "https://unitpay.money/pay/receipt/111-ab34c22",
+    "type": "reponse",
+    "response": "<form>...</form>" 
+  }
+}
+```
+{% endtab %}
+
+{% tab title="Invoice" %}
+```
+{
+  "result": {
+    "message": "Платеж успешно создан.",
+    "paymentId": "1400072",
+    "receiptUrl": "https://unitpay.money/pay/receipt/111-ab34c22",
+    "type": "invoice",
+    "invoiceId": "123" 
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left">&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;</th>
+      <th style="text-align:left">&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>message</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x418;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F;
+        &#x43E; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442;&#x435;
+        &#x444;&#x43E;&#x440;&#x43C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;
+        &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x436;&#x430;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>paymentId</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x41D;&#x43E;&#x43C;&#x435;&#x440; &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x436;&#x430;
+        &#x432; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x435; UnitPay</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>receiptUrl</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x421;&#x441;&#x44B;&#x43B;&#x43A;&#x430; &#x43D;&#x430; &#x447;&#x435;&#x43A; <code>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x447;&#x430;&#x43D;&#x438;&#x435;: &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442;&#x441;&#x44F;, &#x435;&#x441;&#x43B;&#x438; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x430; &#x43A;&#x430;&#x441;&#x441;&#x430; &#x42E;&#x43D;&#x438;&#x442;.&#x427;&#x435;&#x43A;&#x438;, &#x410;&#x442;&#x43E;&#x43B; &#x438;&#x43B;&#x438; e-comm.</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>type</b> 
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p><b>&#x422;&#x438;&#x43F; &#x43E;&#x442;&#x432;&#x435;&#x442;&#x430;:</b>
+        </p>
+        <p><b>redirect</b> &#x2014; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;
+          &#x43F;&#x435;&#x440;&#x435;&#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C;
+          &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;
+          &#x43D;&#x430; &#x430;&#x434;&#x440;&#x435;&#x441;, &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x435;
+          &#x432; <em>redirectUrl</em>
+        </p>
+        <p><b>response</b> - &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;
+          &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x44C; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44E;
+          &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44E;,
+          &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x443;&#x44E; &#x432; <em>response</em> 
+          <br
+          /><b>invoice</b> &#x2014; &#x441;&#x447;&#x435;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;
+          &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;
+          &#x438; &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;
+          &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x449;&#x438;&#x43A;&#x443;.
+          &#x414;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x445;
+          &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x439; &#x43D;&#x435;
+          &#x442;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442;&#x441;&#x44F;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">redirectUrl</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">URL &#x434;&#x43B;&#x44F; &#x43F;&#x435;&#x440;&#x435;&#x430;&#x434;&#x440;&#x435;&#x441;&#x430;&#x446;&#x438;&#x438;
+        &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;
+        &#x43D;&#x430; &#x448;&#x43B;&#x44E;&#x437; &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x436;&#x43D;&#x43E;&#x439;
+        &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">response</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>&#x415;&#x441;&#x43B;&#x438; ApplePay, &#x442;&#x43E; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;
+          &#x431;&#x443;&#x434;&#x435;&#x442; &#x432; &#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x435;
+          json, &#x438;&#x43D;&#x430;&#x447;&#x435; html &#x43A;&#x43E;&#x434; &#x444;&#x43E;&#x440;&#x43C;&#x44B;.</p>
+        <p>json - &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;
+          &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;
+          &#x43F;&#x43E; approveUrl html - &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;
+          &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x438;&#x442;&#x44C;
+          &#x43D;&#x430; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x435;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">invoiceId</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">id &#x441;&#x447;&#x435;&#x442;&#x430;</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Ошибочный ответ
 
