@@ -103,7 +103,7 @@ sub getSignature {
 ```
 {% endtab %}
 
-{% tab title="Response" %}
+{% tab title="Response \(не ApplePay\)" %}
 ```text
 {
   "result": {
@@ -114,6 +114,28 @@ sub getSignature {
     "response": "<form>...</form>" 
   }
 }
+```
+{% endtab %}
+
+{% tab title="Response \(ApplePay\)" %}
+```
+{
+  "result": {
+    "message": "Платеж успешно создан.",
+    "paymentId": "1400072",
+    "receiptUrl": "https://unitpay.money/pay/receipt/111-ab34c22",
+    "type": "reponse",
+    "response": {
+      "success": 1,
+      "orderId": "123",
+      "appleResponse": {
+        /*объект*/
+      },
+      "approveUrl": "url"
+    }
+  }
+}
+
 ```
 {% endtab %}
 
@@ -203,14 +225,15 @@ sub getSignature {
       <td style="text-align:left">response</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">
-        <p>&#x415;&#x441;&#x43B;&#x438; ApplePay, &#x442;&#x43E; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;
-          &#x431;&#x443;&#x434;&#x435;&#x442; &#x432; &#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x435;
-          json, &#x438;&#x43D;&#x430;&#x447;&#x435; html &#x43A;&#x43E;&#x434; &#x444;&#x43E;&#x440;&#x43C;&#x44B;.</p>
-        <p>json - &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;
-          &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;
-          &#x43F;&#x43E; approveUrl html - &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;
+        <p>html &#x43A;&#x43E;&#x434; &#x444;&#x43E;&#x440;&#x43C;&#x44B;, &#x430;
+          &#x435;&#x441;&#x43B;&#x438; ApplePay, &#x442;&#x43E; json</p>
+        <p></p>
+        <p>html - &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;
           &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x438;&#x442;&#x44C;
           &#x43D;&#x430; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x435;</p>
+        <p>json - &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;
+          &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;
+          &#x43F;&#x43E; approveUrl</p>
       </td>
     </tr>
     <tr>
