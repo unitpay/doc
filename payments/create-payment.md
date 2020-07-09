@@ -153,7 +153,7 @@ sub getSignature {
     <tr>
       <td style="text-align:left"><b>paymentId</b>
       </td>
-      <td style="text-align:left">string</td>
+      <td style="text-align:left">integer</td>
       <td style="text-align:left">&#x41D;&#x43E;&#x43C;&#x435;&#x440; &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x436;&#x430;
         &#x432; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x435; UnitPay</td>
     </tr>
