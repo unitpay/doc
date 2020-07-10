@@ -1,6 +1,6 @@
 # Создание платежа
 
-Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../modules/).
+Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../gotovye-moduli/modules/).
 
 Для взаимодействия с API используйте библиотеку [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk).[https://unitpay.ru/api?](https://unitpay.ru/api?)   
      method=initPayment   
