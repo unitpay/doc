@@ -5,7 +5,17 @@
 **Шаг 1.** Создайте в БД таблицу unitpay\_payments:
 
 ```text
-1CREATE TABLE IF NOT EXISTS `unitpay_payments` (2  `id` int(10) NOT NULL AUTO_INCREMENT,3  `unitpayId` varchar(255) NOT NULL,4  `account` varchar(255) NOT NULL,5  `sum` float NOT NULL,6  `itemsCount` int(11) NOT NULL DEFAULT '1',7  `dateCreate` datetime NOT NULL,8  `dateComplete` datetime DEFAULT NULL,9  `status` tinyint(4) NOT NULL DEFAULT '0',10  PRIMARY KEY (`id`)11) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;12
+CREATE TABLE IF NOT EXISTS `unitpay_payments` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `unitpayId` varchar(255) NOT NULL,
+  `account` varchar(255) NOT NULL,
+  `sum` float NOT NULL,
+  `itemsCount` int(11) NOT NULL DEFAULT '1',
+  `dateCreate` datetime NOT NULL,
+  `dateComplete` datetime DEFAULT NULL,
+  `status` tinyint(4) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 ```
 
 В таблицу unitpay\_payments будет логироваться информация о проводимых платежах
