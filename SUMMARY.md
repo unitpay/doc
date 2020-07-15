@@ -76,4 +76,5 @@
 * [Другие возможности](other/README.md)
   * [Использование тестового API](other/test-api.md)
   * [Telegram бот](other/telegram.md)
+* [FAQ](faq-partners.md)
 
