@@ -1,19 +1,24 @@
 # Создание платежа
 
-Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../gotovye-moduli/modules/).
+{% hint style="info" %}
+Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../gotovye-moduli/modules/).  
+Для взаимодействия с API вы можете использовать библиотеку [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk).
+{% endhint %}
 
-Для взаимодействия с API используйте библиотеку [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk).[https://unitpay.ru/api?](https://unitpay.ru/api?)   
-     method=initPayment   
-     params\[paymentType\]=yandex   
-     params\[account\]=order413   
-     params\[sum\]=10.00   
-     params\[projectId\]=1   
-     params\[resultUrl\]=http://вашсайт.ru    
-     params\[ip\]=77.129.27.24   
-     params\[secretKey\]=ключ   
-     params\[signature\]=цифровая подпись   
-     params\[preauth\]=1   
-     params\[customerEmail\]=Email плательщика
+```http
+https://unitpay.ru/api?
+     method=initPayment 
+     params[paymentType]=yandex 
+     params[account]=order413 
+     params[sum]=10.00 
+     params[projectId]=1 
+     params[resultUrl]=http://вашсайт.ru  
+     params[ip]=77.129.27.24 
+     params[secretKey]=ключ 
+     params[signature]=цифровая подпись 
+     params[preauth]=1 
+     params[customerEmail]=Email плательщика
+```
 
 **Обязательные параметры:**
 
