@@ -1,10 +1,6 @@
 # Информация о платеже
 
-{% hint style="info" %}
-Вы можете воспользоваться готовой библиотекой [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk) 
-{% endhint %}
-
-{% api-method method="get" host="https://unitpay.ru/api?method=getPayment " path="" %}
+{% api-method method="get" host="https://unitpay.ru/api?method=getPayment&params\[paymentId\]=153091501&params\[secretKey\]=x6bh0qbewehfppogkz6lufartkzyv7o0" path="" %}
 {% api-method-summary %}
 Получение информации о платеже
 {% endapi-method-summary %}
@@ -18,7 +14,7 @@
 {% api-method-query-parameters %}
 {% api-method-parameter name="paymentId" type="integer" required=true %}
 ID платежа в системе UnitPay  
-Например: 1234512345
+Например: 153091501
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="secretKey" type="string" required=true %}
@@ -34,31 +30,33 @@ ID платежа в системе UnitPay
 {% endapi-method-response-example-description %}
 
 ```
-{"result": {
-    "paymentId": 1400072,  
-    "status": "error", 
-    "paymentType": "card",
-    "account": "demo",
-    "purse": "526280xxxxx3104",
-    "profit": "9.80",
-    "date": "2015-11-01 23:34:53",
-    "projectId": 135,
-    "orderCurrency": "RUB",
-    "orderSum": "10.00",
-    "payerCurrency": "RUB",
-    "payerSum": "10.00",
-    "receiptUrl": "https://consumer.1-ofd.ru/#/ticket/6e194444-1111-4312-5555-37ce908ba290",
-    "errorMessage": "Пользователь отказался от оплаты"
-}}
+{
+   "result": {
+      "paymentId": 153091501,
+      "status": "success",
+      "paymentType": "card",
+      "date": "2020-02-16 09:22:22",
+      "purse": "546946xxxxxx0236",
+      "account": "demo",
+      "profit": "9.80",
+      "projectId": 135,
+      "orderSum": "10.00",
+      "orderCurrency": "RUB",
+      "payerSum": "10.00",
+      "payerCurrency": "RUB",
+      "availableForRefund": "10.00",
+      "isPreauth": 0,
+      "refunds": [],
+      "receiptUrl": "https://consumer.1-ofd.ru/v1?fn=9282000100367629&fp=2120704629&i=101164&t=20200216T092200&s=26&n=1"
+   }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
-
-Запрос можно выполнить в тестовом режиме. [Узнать подробнее](../other/test-api.md)
+> Запрос можно выполнить в тестовом режиме. [Узнать подробнее](../other/test-api.md)
 
 **Параметры успешного ответа:**
 
@@ -198,7 +196,7 @@ ID платежа в системе UnitPay
         <p>&#x421;&#x441;&#x44B;&#x43B;&#x43A;&#x430; &#x43D;&#x430; &#x447;&#x435;&#x43A;.</p>
         <p><code>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x447;&#x430;&#x43D;&#x438;&#x435;: &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442;&#x441;&#x44F;, &#x435;&#x441;&#x43B;&#x438; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x430; &#x43A;&#x430;&#x441;&#x441;&#x430; &#x42E;&#x43D;&#x438;&#x442;.&#x427;&#x435;&#x43A;&#x438;, &#x410;&#x442;&#x43E;&#x43B; &#x438;&#x43B;&#x438; e-comm.</code>
         </p>
-        <p>&#x41D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;: <em>https://consumer.1-ofd.ru/#/ticket/6e194444-1111-4312-5555-37ce908ba290</em>
+        <p>&#x41D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;: <a href="https://consumer.1-ofd.ru/v1?fn=9282000100367629&amp;fp=2120704629&amp;i=101164&amp;t=20200216T092200&amp;s=26&amp;n=1">https://consumer.1-ofd.ru/v1?fn=9282000100367629&amp;fp=2120704629&amp;i=101164&amp;t=20200216T092200&amp;s=26&amp;n=1</a>
         </p>
       </td>
     </tr>
@@ -213,6 +211,70 @@ ID платежа в системе UnitPay
     </tr>
   </tbody>
 </table>
+
+{% api-method method="get" host="https://unitpay.ru/api?method=getPayment&params\[paymentId\]=153091501&params\[secretKey\]=x6bh0qbewehfppogkz6lufartkzyv7o0" path="" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+https://consumer.1-ofd.ru/v1?fn=9282000100367629&fp=2120704629&i=101164&t=20200216T092200&s=26&n=1
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://unitpay.ru/api?method=getPayment&params\[paymentId\]=153091501&params\[secretKey\]=x6bh0qbewehfppogkz6lufartkzyv7o0" path="" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+https://consumer.1-ofd.ru/v1?fn=9282000100367629&fp=2120704629&i=101164&t=20200216T092200&s=26&n=1
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
 
 
