@@ -1,6 +1,6 @@
 # Информация о платеже
 
-{% api-method method="get" host="https://unitpay.ru/api" path="?method=getPayment&params\[paymentId\]=153091501&params\[secretKey\]=x6bh0qbewehfppogkz6lufartkzyv7o0" %}
+{% api-method method="get" host="https://unitpay.ru/api?method=getPayment&params\[paymentId\]=153091501&params\[secretKey\]=x6bh0qbewehfppogkz6lufartkzyv7o0" path="" %}
 {% api-method-summary %}
 Получение информации о платеже
 {% endapi-method-summary %}
