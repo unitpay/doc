@@ -1,10 +1,5 @@
 # Создание платежа
 
-{% hint style="info" %}
-Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../gotovye-moduli/modules/).  
-Для взаимодействия с API вы можете использовать библиотеку [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk).
-{% endhint %}
-
 ```http
 https://unitpay.ru/api?
      method=initPayment 
@@ -260,4 +255,9 @@ sub getSignature {
 |  | Значение | Описание |
 | :--- | :--- | :--- |
 | **message** | строка | Информация с описанием ошибки формирования платежа |
+
+{% hint style="info" %}
+Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../gotovye-moduli/modules/).  
+Для взаимодействия с API вы можете использовать библиотеку [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk).
+{% endhint %}
 
