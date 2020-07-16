@@ -84,7 +84,9 @@ sub getSignature {
 Если вы подключили онлайн-кассу в ЛК, то для формирования чеков необходимо дополнительно передать [ряд параметров](../online-cash-register/receipt_parameters.md) 
 {% endhint %}
 
+{% hint style="warning" %}
 Запрос можно выполнить в тестовом режиме. [Узнать подробнее](../other/test-api.md)
+{% endhint %}
 
 #### Успешный ответ
 
