@@ -4,7 +4,7 @@
 
 **Шаг 1.** Создайте в БД таблицу unitpay\_payments:
 
-```sql
+```text
 CREATE TABLE IF NOT EXISTS `unitpay_payments` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `unitpayId` varchar(255) NOT NULL,
