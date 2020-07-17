@@ -66,18 +66,20 @@ ID подписки в системе UnitPay
 #### Успешный ответ
 
 ```text
-{"result": {
-    "subscriptionId": 123456,
-    "description": "Описание подписки",
-    "status": "active",
-    "startDate": "2017-09-01 09:00:00",
-    "successPayments": 4,
-    "failPayments": 0,
-    "lastPaymentId": 12345678911,
-    "lastDateUpdate": "2017-09-15 19:30:00",
-    "parentPaymentId": 12345678910,
-    "totalSum": 50.00 
-}}
+{
+   "result": {
+      "subscriptionId": 123456,
+      "description": "Описание подписки",
+      "status": "active",
+      "startDate": "2017-09-01 09:00:00",
+      "successPayments": 4,
+      "failPayments": 0,
+      "lastPaymentId": 12345678911,
+      "lastDateUpdate": "2017-09-15 19:30:00",
+      "parentPaymentId": 12345678910,
+      "totalSum": 50
+   }
+}
 ```
 
 |  | Значение | Описание |
@@ -97,9 +99,11 @@ ID подписки в системе UnitPay
 #### Ошибочный ответ
 
 ```text
-{"error": {
-    "message": "Описание ошибки"
-}}
+{
+   "error": {
+      "message": "Описание ошибки"
+   }
+}
 ```
 
 |  | Значение | Описание |
