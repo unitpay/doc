@@ -1,12 +1,8 @@
 # Возврат платежа
 
-{% hint style="info" %}
-Вы можете воспользоваться готовой библиотекой [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk) 
-{% endhint %}
-
 {% api-method method="get" host="https://unitpay.ru/api?method=refundPayment" path="" %}
 {% api-method-summary %}
-Получение информации о платеже
+Возврат платежа
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -63,11 +59,13 @@ ID платежа в системе UnitPay
 | :--- | :--- | :--- |
 | **message** | string | Комментарий успешной операции можно использовать как подсказку пользователю после выполнения запроса |
 
-#### 
-
 #### Ошибочный ответ
 
 |  | Тип | Описание |
 | :--- | :--- | :--- |
 | **message** | string | Информация с описанием ошибки запроса |
+
+{% hint style="info" %}
+Вы можете воспользоваться готовой библиотекой [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk) 
+{% endhint %}
 
