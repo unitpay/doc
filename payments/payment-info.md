@@ -1,6 +1,6 @@
 # Информация о платеже
 
-{% api-method method="get" host="https://unitpay.ru/api?method=getPayment&params\[paymentId\]=153091501&params\[secretKey\]=x6bh0qbewehfppogkz6lufartkzyv7o0" path="" %}
+{% api-method method="get" host="https://unitpay.ru/api" path="?method=getPayment&params\[paymentId\]=153091501&params\[secretKey\]=x6bh0qbewehfppogkz6lufartkzyv7o0" %}
 {% api-method-summary %}
 Получение информации о платеже
 {% endapi-method-summary %}
@@ -55,8 +55,6 @@ ID платежа в системе UnitPay
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-> Запрос можно выполнить в тестовом режиме. [Узнать подробнее](../other/test-api.md)
 
 **Параметры успешного ответа:**
 
@@ -219,4 +217,8 @@ ID платежа в системе UnitPay
 |  | Значение | Описание |
 | :--- | :--- | :--- |
 | **message** | строка | Информация с описанием ошибки запроса. |
+
+{% hint style="warning" %}
+Запрос можно выполнить в тестовом режиме. [Узнать подробнее](../other/test-api.md)
+{% endhint %}
 
