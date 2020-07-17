@@ -1,6 +1,6 @@
 # Закрытие подписки
 
-{% api-method method="get" host="https://unitpay.ru/api" path="?method=closeSubscription?params\[subscriptionId\]=1?params\[secretKey\]=ключ" %}
+{% api-method method="get" host="https://unitpay.ru/api" path="?method=closeSubscription&params\[subscriptionId\]=1&params\[secretKey\]=ключ" %}
 {% api-method-summary %}
 Закрытие подписки
 {% endapi-method-summary %}
