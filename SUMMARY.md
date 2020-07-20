@@ -63,6 +63,7 @@
 * [Справочник](book-of-reference/README.md)
   * [IP адреса системы](book-of-reference/ip-addresses.md)
   * [Внешний вид формы оплаты](book-of-reference/payment-form.md)
+  * [Статусы и ошибки платежей](book-of-reference/statusy-i-oshibki-platezhei.md)
   * [Коды операторов](book-of-reference/operator-codes.md)
   * [Коды платежных систем](book-of-reference/payment-system-codes.md)
   * [Коды стран Qiwi](book-of-reference/qiwi-country-codes.md)
@@ -85,5 +86,4 @@
   * [Оплата по ссылке](faq-partners/oplata-po-ssylke.md)
   * [Тарифы и лимиты](faq-partners/rates-limits.md)
   * [Онлайн-кассы](faq-partners/online-kassa.md)
-  * [Статусы и ошибки платежей](faq-partners/statusy-i-oshibki-platezhei.md)
 
