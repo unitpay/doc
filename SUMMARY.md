@@ -56,6 +56,8 @@
     * [Webasyst Shop Script 7](gotovye-moduli/modules/webasyst-shop-script-7.md)
     * [WHMCS](gotovye-moduli/modules/whmcs.md)
     * [Zen Cart](gotovye-moduli/modules/zen-cart.md)
+    * [Taplink](gotovye-moduli/modules/taplink.md)
+    * [Tilda](gotovye-moduli/modules/tilda.md)
 * [Личный кабинет](unitpay-management/README.md)
   * [Текущий баланс](unitpay-management/balance.md)
   * [Комиссии проекта](unitpay-management/commissions.md)
