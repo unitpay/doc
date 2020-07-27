@@ -4,23 +4,19 @@ To interact with the API, we recommend using the [Unitpay PHP-SDK](https://githu
 
 ![](../.gitbook/assets/image%20%2813%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **login** | line | Partner's email in the UnitPay system |
-| **secretKey** | line | Partner's secret key, available in the [profile settings](https://unitpay.money/partner/profile/edit)  |
+| **secretKey** | line | Partner's secret key, available in the [profile settings](https://unitpay.money/partner/profile/edit) |
 
 **Successful response**
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **balance** | number | Partner's balance in rubles |
-| **email**  | email | Partner's email in the UnitPay system  |
+| **email** | email | Partner's email in the UnitPay system |
 
 **Error response**
 

@@ -1,6 +1,6 @@
 # Payment System Codes
 
-|  | **Name**   | **Description** |
+|  | **Name** | **Description** |
 | :--- | :--- | :--- |
 | **mc** | Mobile payment | Payment for services via the API/WEB form. Advantages: charges up to 95% of the payment, no fraud, transparent payment process. Disadvantages: only Russia and MTS, Megafon, Beeline and Tele2 operators are available |
 | **card** | Plastic cards | Accepting payments by cards around the world |

@@ -1,6 +1,6 @@
 # Parameters for receipts
 
-According to requirement 54-FZ, it is necessary to send receipts to the buyer and the Federal Tax Service of the Russian Federation. 
+According to requirement 54-FZ, it is necessary to send receipts to the buyer and the Federal Tax Service of the Russian Federation.
 
 If you have connected an online cash desk then when creating a payment, you must send the following parameters:
 

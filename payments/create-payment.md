@@ -16,7 +16,7 @@ To interact with the API, use the [Unitpay PHP-SDK](https://github.com/unitpay/p
 | **desc** | line | Order description |
 | **ip** | line | Payer's IP address |
 | **secretKey** | line | Secret key, available in the project settings |
-| **signature** | строка | Ц_ифровая подпись запроса. Они защищает вас от злоумышленников - подмены описания или стоимости заказа, размещения ссылки на оплату на ресурсах мошенников.   Образуется как sha256\( account + "{up}" + currency + "{up}" + desc + "{up}" + sum + "{up}" + secretKey\),    где sha256 - метод хеширования;    "{up}" - разделитель параметров в хеш-функции;    secretKey - секретный ключ проекта \(доступен в личном кабинете\);     Важно. Если вы не передаете  currency на форму оплаты, то этот параметр не должен участвовать в формировании подписи._  |
+| **signature** | строка | Ц_ифровая подпись запроса. Они защищает вас от злоумышленников - подмены описания или стоимости заказа, размещения ссылки на оплату на ресурсах мошенников.   Образуется как sha256\( account + "{up}" + currency + "{up}" + desc + "{up}" + sum + "{up}" + secretKey\),    где sha256 - метод хеширования;    "{up}" - разделитель параметров в хеш-функции;    secretKey - секретный ключ проекта \(доступен в личном кабинете\);     Важно. Если вы не передаете  currency на форму оплаты, то этот параметр не должен участвовать в формировании подписи._ |
 
 **Parameters depending on the type of payment:**
 
@@ -25,7 +25,6 @@ To interact with the API, use the [Unitpay PHP-SDK](https://github.com/unitpay/p
 | phone | number | Phone number with country code \(for example, 79520000000\) |
 | operator | line | [Operator's alphabetic code](../book-of-reference/operator-codes.md) for SMS billing. For other systems, the operator is determined automatically |
 
-  
 **Additional payment parameters:**
 
 \*\*\*\*
@@ -35,15 +34,13 @@ To interact with the API, use the [Unitpay PHP-SDK](https://github.com/unitpay/p
 | **currency** | line | The order currency according to ISO 4217 \(RUB, UAH, BYN, EUR, USD\). If the payment system does not support the required currency, the amount will be converted to the payment system currency |
 | **locale** | line | It is mandatory to specify the payment form language, acceptable values: ru, en. By default, the form language is determined based on the country that the user's IP address belongs to |
 | **signature** | line | Request digital signature. This feature is mandatory for all new Unitpay partners. It protects you from hackers: substituting the description or price of the order, placing a link to the payment on the resources of fraudsters. |
-| **backUrl** | line | The user's return address from the payment form without making a purchase; the project address is used by default. The project domain must be used in the address. Examples: https://redirect.&lt;project domain&gt;/?someParams", "https://&lt;project domain&gt;/redirect/ |
+| **backUrl** | line | The user's return address from the payment form without making a purchase; the project address is used by default. The project domain must be used in the address. Examples: [https://redirect.&lt;project](https://redirect.<project) domain&gt;/?someParams", "[https://&lt;project](https://<project) domain&gt;/redirect/ |
 | **subscription** | true/false | Use this flag if you want to create a subscription under the payer's card. The subscription ID \(subscriptionId\) will be transmitted in the PAY method to your payment handler. Subscriptions can only be used after approval by your supervising manager |
-| **subscriptionId** | number | The subscription ID in respect of which it is necessary to debit the funds. This parameter should be previously received in the PAY method to your payment handler  |
+| **subscriptionId** | number | The subscription ID in respect of which it is necessary to debit the funds. This parameter should be previously received in the PAY method to your payment handler |
 | **preauth** | true/false | Use this flag to create a payment with pre-authorization. By default, this flag is disabled and the value is 0 |
 | **preauthExpireLogic** | number | Field for the logic of payment blocking with pre-authorization     0 - If there is no request for confirmation or cancellation, payment will be confirmed upon expiration of the lock on the side of the acquirer bank \(~114 hours after creating the payment\)  1 - If there is no request for confirmation or cancellation, payment will be cancelled upon expiration of the lock on the side of the acquirer bank \(~114 hours after creating the payment\).  If the parameter is not used, the payment will be cancelled after the expiration date. |
 
-  
-You can run the query in test mode. [Learn more](../book-of-reference/test-api.md)  
-
+You can run the query in test mode. [Learn more](../book-of-reference/test-api.md)
 
 **Request digital signature**
 
@@ -94,24 +91,20 @@ sub getSignature {
 }}
 ```
 
-#### 
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **message** | line | Information about the result of payment generation |
-| **type**  | line | redirect — requires redirection to the payment platform gateway  invoice — invoice is generated automatically, payment is made by the user through the payment system's account |
-| **paymentId**  | number | Payment number in the UnitPay system |
+| **type** | line | redirect — requires redirection to the payment platform gateway  invoice — invoice is generated automatically, payment is made by the user through the payment system's account |
+| **paymentId** | number | Payment number in the UnitPay system |
 | **redirectUrl** | line | URL for redirecting the user to the payment platform gateway. If the payment does not require redirecting, this parameter will not be available |
 
-#### Error response 
+## Error response
 
 ```text
 {"error": {
     "message": "Описание ошибки"
 }}
 ```
-
-
 
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |

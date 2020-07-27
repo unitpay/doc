@@ -10,7 +10,7 @@ The function can be used only after approval. Please contact your account manage
 
 ![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e4d55002c7d3a7e9ae7fc40/file-TuCFljCy1Y.png](../.gitbook/assets/0%20%2820%29.png)
 
-To add a new product, click **\[+ Add product\]** and fill in the following fields: 
+To add a new product, click **\[+ Add product\]** and fill in the following fields:
 
 ![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e4d55222c7d3a7e9ae7fc44/file-oyHa9RDjYy.png](../.gitbook/assets/1%20%2825%29.png)
 
@@ -20,7 +20,7 @@ To add a new product, click **\[+ Add product\]** and fill in the following fiel
 
 **Price** is the amount that will be billed to the payer;
 
-**Mandatory field** is a question that the payer must answer before paying. The response will be used in the Statistics section - it will help to easily find payments from specific users. You can select one of the mandatory fields: E-mail and Phone number. 
+**Mandatory field** is a question that the payer must answer before paying. The response will be used in the Statistics section - it will help to easily find payments from specific users. You can select one of the mandatory fields: E-mail and Phone number.
 
 **Additional field** is the text of an additional question that the customer may answer before paying. The response will be displayed in the Statistics section next to the mandatory field.
 
@@ -34,24 +34,23 @@ This way the product will be created and available for sale:
 
 In the product menu, you can:
 
-1. **Share a product link**: 
-
-* copy a payment link;
-* download the QR code for payment as an image.
+1. **Share a product link**:
+2. copy a payment link;
+3. download the QR code for payment as an image.
 
 Please note: links are created in the **up.sale** domain.
 
 ![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e553e0704286364bc95d321/file-D7WqWLpguY.png](../.gitbook/assets/3%20%2810%29.png)
 
-2. **Edit the product.**
+1. **Edit the product.**
 
-After creating the product, you can edit the **Price**, **Mandatory field**, **Additional field**, and **Maximum allowed number of successful payments**. You cannot edit **Names** or **Product descriptions** since all products and their description are moderated by the security department after being added. 
+After creating the product, you can edit the **Price**, **Mandatory field**, **Additional field**, and **Maximum allowed number of successful payments**. You cannot edit **Names** or **Product descriptions** since all products and their description are moderated by the security department after being added.
 
-3. **Deactivate an** active **product**.
+1. **Deactivate an** active **product**.
 
-When clicking on the link to the deactivated product, the payer will see _Error 404. Page not found_". 
+When clicking on the link to the deactivated product, the payer will see _Error 404. Page not found_".
 
-4. **Activate an** inactive **product**.
+1. **Activate an** inactive **product**.
 
 **How does the payment process work?**
 
@@ -63,5 +62,5 @@ After entering the data and clicking the "Go to payment" button, the payer gets 
 
 ![https://lh3.googleusercontent.com/Hz-uZWDrB3yG0bcnbU5o3Pb1odCMBem4AQICeMGdNs52G5ZZx3I0j6EeeRB\_CvFrxzYVuQDH\_WDj44G1iiBV-APMYackQVW5ElMqrhQ6veH\_dLLUz6nh9Mz70A\_mPmBuAqJ575xr](../.gitbook/assets/5%20%281%29.png)
 
-You can see the information specified by the payer in the _Invoice No._ column in the _Payment Details_ section. 
+You can see the information specified by the payer in the _Invoice No._ column in the _Payment Details_ section.
 

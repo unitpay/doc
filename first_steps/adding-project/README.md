@@ -24,9 +24,9 @@ The **name** should match the name of the company, product or project used on th
 
 You can choose one of three confirmation options:
 
-_Option 1_. Place a special text file in the root of your site and click Add project. 
+_Option 1_. Place a special text file in the root of your site and click Add project.
 
-_Option 2_. Add the meta tag specified by us to the html code of your site's main page \(the head block\). 
+_Option 2_. Add the meta tag specified by us to the html code of your site's main page \(the head block\).
 
 _Option 3_. Add a DNS record of the TXT type that contains the value specified by us.
 

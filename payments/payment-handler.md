@@ -18,7 +18,7 @@ The domain in the payment handler must completely match the one you add to our s
 
 ```text
 http://your_payment_handler_address?
- 
+
      method=check 
      params[account]=userId 
      params[date]=2012-10-01 12:32:00 
@@ -55,19 +55,19 @@ http://your_payment_handler_address?
         <br />error &#x2014; error notification</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>unitpayId </b>
+      <td style="text-align:left"><b>unitpayId</b>
       </td>
       <td style="text-align:left">number</td>
       <td style="text-align:left">Internal payment number in UnitPay</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>projectId </b>
+      <td style="text-align:left"><b>projectId</b>
       </td>
       <td style="text-align:left">number</td>
       <td style="text-align:left">Project ID in UnitPay</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>account </b>
+      <td style="text-align:left"><b>account</b>
       </td>
       <td style="text-align:left">line</td>
       <td style="text-align:left">Subscriber ID in the partner&apos;s system</td>
@@ -108,14 +108,14 @@ http://your_payment_handler_address?
       <td style="text-align:left"><b>orderSum</b>
       </td>
       <td style="text-align:left">number</td>
-      <td style="text-align:left">Order amount.<b> Make sure to check the received value against the original order amount</b>
+      <td style="text-align:left">Order amount. <b>Make sure to check the received value against the original order amount</b>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"><b>orderCurrency</b>
       </td>
       <td style="text-align:left">line</td>
-      <td style="text-align:left">Order currency according to ISO 4217 (RUB, UAH, BYN, EUR, USD).<b> Make sure to check the received value with the original order currency</b>
+      <td style="text-align:left">Order currency according to ISO 4217 (RUB, UAH, BYN, EUR, USD). <b>Make sure to check the received value with the original order currency</b>
       </td>
     </tr>
     <tr>

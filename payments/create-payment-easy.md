@@ -60,11 +60,7 @@ Payment amount. In rubles by default. See the additional currency parameter
 
 {% endapi-method-response-example-description %}
 
-```
-
-
-
-
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -128,7 +124,7 @@ Example of creating a digital signature in PHP:
 
 **Default payment method**
 
-You can define the payment system that will be used for the user by default. To do this, add parameter / **system\_code** corresponding to the [alphabetic code of the payment system](../book-of-reference/payment-system-codes.md) at the end of the URL of your payment form \(for example: https://unitpay.money/pay/demo\).
+You can define the payment system that will be used for the user by default. To do this, add parameter / **system\_code** corresponding to the [alphabetic code of the payment system](../book-of-reference/payment-system-codes.md) at the end of the URL of your payment form \(for example: [https://unitpay.money/pay/demo\](https://unitpay.money/pay/demo\)\).
 
 **Return to the store's website**
 

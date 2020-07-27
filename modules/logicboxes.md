@@ -3,20 +3,14 @@
 **The Module Setup and Installation Instruction**
 
 1. Download the [archive](https://github.com/unitpay/logicboxes-module) with the module.
-
 2. Copy the contents of the unitpay directory from the archive to any of your hostings.
-
 3. In the LogicBoxes panel, go to the Settings-&gt;finance & billing-&gt;payment gateway-&gt;list/add.
 
 ![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/580a3a8290336070ba247d08/file-UvUDQyRVRR.png](../.gitbook/assets/0%20%282%29.png)
 
-4. Click on Add a gateway, then click Add it now at the bottom of the opened window.
-
-5. In the gateway url, enter  http://&lt;domain linked to your hosting&gt;/unitpay/paymentpage.php
-
-6. Configure the other fields at your discretion and click Save settings.
-
-7. Fill in the fields in config.php on your hosting. You can get $domain = 'unitpay.money', $secret\_key and $public\_key in your unitpay account. You can find $key in the logicboxes panel settings. To do this, go to settings-&gt;finance & billing-&gt;payment gateway-&gt;list/add and click the Manage button opposite the unitpay payment system that you have just configured. You will see the key value in one of the fields in the opened window.
-
-8. Enter the address of the payment handler in your unitpay account http://&lt;domain linked to your hosting&gt;/unitpay/postpayment.php
+1. Click on Add a gateway, then click Add it now at the bottom of the opened window.
+2. In the gateway url, enter [http://&lt;domain](http://<domain) linked to your hosting&gt;/unitpay/paymentpage.php
+3. Configure the other fields at your discretion and click Save settings.
+4. Fill in the fields in config.php on your hosting. You can get $domain = 'unitpay.money', $secret\_key and $public\_key in your unitpay account. You can find $key in the logicboxes panel settings. To do this, go to settings-&gt;finance & billing-&gt;payment gateway-&gt;list/add and click the Manage button opposite the unitpay payment system that you have just configured. You will see the key value in one of the fields in the opened window.
+5. Enter the address of the payment handler in your unitpay account [http://&lt;domain](http://<domain) linked to your hosting&gt;/unitpay/postpayment.php
 

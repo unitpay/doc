@@ -4,11 +4,9 @@
 
 The API test mode allows you to learn how to work with the Unitpay API on test data without actually conducting transactions:
 
-- data exchange;
-
-- format of queries and responses;
-
-- content of queries and responses.
+* data exchange;
+* format of queries and responses;
+* content of queries and responses.
 
 To use the API in test mode, you must add the **params\[test\]=1** parameter to the query.
 
@@ -102,7 +100,7 @@ Mandatory method parameters
 | 100303 | Successful payment |
 | 100304 | Error payment |
 
-Use **paymentId** from the test responses to get information about the payment. 
+Use **paymentId** from the test responses to get information about the payment.
 
 **Important Note**: information about the test payment will not be saved. The data received in the response may differ from the data transmitted when creating the payment. The value of **purse** can be hidden in test mode.
 

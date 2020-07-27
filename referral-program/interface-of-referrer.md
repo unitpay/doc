@@ -16,9 +16,9 @@ The resulting link leads to the Unitpay account registration form.
 
 Agency fee will be charged only if the referral registers via the link!
 
-One or more referrals may register using the same link. In this case, the revenue from them will be summed up in a single line. 
+One or more referrals may register using the same link. In this case, the revenue from them will be summed up in a single line.
 
-The agency fees can be credited to the referrer's account balance by clicking the Add button. The credited funds can be withdrawn in any way available for your account type. 
+The agency fees can be credited to the referrer's account balance by clicking the Add button. The credited funds can be withdrawn in any way available for your account type.
 
 ![https://lh4.googleusercontent.com/O5QC4JIBUXot7j7A\_1RsxHatBuKbXq3YKugIL9HVmdVUI-QX6hZNjc2HG3EuMLH-qeEGYpiRVB7gOBcGOLFoGFuLHthMYHZStIjYIu6BuSuH5ypzMWnHikW60XSkdR5vpZIPyqd2](../.gitbook/assets/1%20%286%29.png)
 

@@ -4,9 +4,6 @@ To interact with the API, use the [Unitpay PHP-SDK](https://github.com/unitpay/p
 
 ![](../.gitbook/assets/image%20%2832%29.png)
 
-  
-
-
 **Required parameters:**
 
 |  | **Value** | **Description** |
@@ -16,7 +13,7 @@ To interact with the API, use the [Unitpay PHP-SDK](https://github.com/unitpay/p
 | **purse** | line | Payee's purse in the format accepted in the payment system |
 | **transactionId** | text | Unique payout ID on the partner's side |
 | **sum** | number | The transfer amount in rubles, for example: "10.22" |
-| **paymentType** | line | [Payment system code](../book-of-reference/payment-system-codes.md):  Supported: qiwi, card, webmoney, mc, yandex  |
+| **paymentType** | line | [Payment system code](../book-of-reference/payment-system-codes.md):  Supported: qiwi, card, webmoney, mc, yandex |
 
 **Additional parameters:**
 
@@ -24,7 +21,7 @@ To interact with the API, use the [Unitpay PHP-SDK](https://github.com/unitpay/p
 
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
-| **projectId** | number | Unique project ID in the UnitPay system   |
+| **projectId** | number | Unique project ID in the UnitPay system |
 
 **IMPORTANT NOTE**: always use a unique **transactionId** for new payouts; when you get an existing **transactionId** \(regardless of other parameters\), the current payout status is returned
 
@@ -33,8 +30,6 @@ You can run the query in test mode. [Learn more](../book-of-reference/test-api.m
 **Successful response**
 
 ![](../.gitbook/assets/image%20%2826%29.png)
-
-
 
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
@@ -46,21 +41,16 @@ You can run the query in test mode. [Learn more](../book-of-reference/test-api.m
 | **completeDate** | text | Payout completion date |
 | **sum** | number | Amount of payout |
 | **payoutCommission** | number | Payout commission |
-| **partnerCommission** | number | Partner commission  |
+| **partnerCommission** | number | Partner commission |
 
 **Error response**
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **message** | line | Information with a description of the request error |
 | **code** | line | Error code, see detailed explanation in the table below |
-
-  
-
 
 **Errors:**
 
@@ -75,9 +65,6 @@ You can run the query in test mode. [Learn more](../book-of-reference/test-api.m
 | **1052** | We could not get information about the card number. Check the card number and try to repeat the transaction again or after a while |
 | **1053** | We could not get information about the phone number. Check the phone number and try to repeat the transaction again or after a while |
 | **201** | We could not transfer funds to the account you specified   This may be due to the restrictions on the payee's account or errors on the payment system platform   Please contact our customer support for more information or repeat the request later |
-
-  
-
 
 **Technical errors:**
 

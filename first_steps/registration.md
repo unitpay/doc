@@ -16,7 +16,7 @@ To register, you need to:
 
 Specify **INN \(Taxpayer's Identification Number\) of the company or individual entrepreneur**, **email address** and **password**, if you register a legal entity or individual entrepreneur in the system.
 
-Specify your **mobile phone number**, **email address** and **password**, as well as confirm your legal capacity and agree to the terms and conditions of the [public offer](https://unitpay.money/offer) to use the Unitpay Service and the [personal data processing policy](https://unitpay.money/policy) - if you register in the system without a legal entity or individual entrepreneur. During registration without a legal entity, you can select the method of identification: using a personal WebMoney certificate or using passport data. 
+Specify your **mobile phone number**, **email address** and **password**, as well as confirm your legal capacity and agree to the terms and conditions of the [public offer](https://unitpay.money/offer) to use the Unitpay Service and the [personal data processing policy](https://unitpay.money/policy) - if you register in the system without a legal entity or individual entrepreneur. During registration without a legal entity, you can select the method of identification: using a personal WebMoney certificate or using passport data.
 
 After registration, you will need to confirm your email address. To do this, follow the link from the special email that we sent to the email address specified during registration:
 

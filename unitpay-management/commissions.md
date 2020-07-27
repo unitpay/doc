@@ -4,24 +4,20 @@ To interact with the API, we recommend using the [Unitpay PHP-SDK](https://githu
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **projectId** | number | Project ID in the system |
 | **login** | line | Partner's email in the UnitPay system |
-| **secretKey** | line | Partner's secret key, available in the [profile settings](https://unitpay.money/partner/profile/edit)  |
+| **secretKey** | line | Partner's secret key, available in the [profile settings](https://unitpay.money/partner/profile/edit) |
 
 **Successful response**
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **operator code** | text | Operator alphabetic code |
-| **commission**  | number | Full commission for effecting the payment  |
+| **commission** | number | Full commission for effecting the payment |
 
 **Error response**
 

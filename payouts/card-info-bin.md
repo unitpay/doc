@@ -4,22 +4,15 @@ To get it from the API, we recommend using the [Unitpay PHP-SDK](https://github.
 
 ![](../.gitbook/assets/image%20%2824%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **login** | line | Partner's email in the UnitPay system |
 | **secretKey** | line | Partner's secret key, available in the [profile settings](https://unitpay.money/partner/profile/edit) |
 | **bin** | number | First 6 digits of the card number |
 
-  
-
-
 **Successful response**
 
 ![](../.gitbook/assets/image%20%2834%29.png)
-
-
 
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
@@ -32,30 +25,20 @@ To get it from the API, we recommend using the [Unitpay PHP-SDK](https://github.
 | **bankUrl** | line | Bank Url |
 | **bankPhone** | line | Bank phone number |
 
-  
-
-
 **Error response**
 
 ![](../.gitbook/assets/image%20%288%29.png)
-
-
 
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **message** | line | Information with a description of the request error |
 | **code** | line | Error code, see detailed explanation in the table below |
 
-  
-
-
 **Errors:**
 
 |  | **Description** |
 | :--- | :--- |
 | **100** | No matches were found for your query |
-
-
 
 **Technical errors:**
 

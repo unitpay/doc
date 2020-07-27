@@ -6,12 +6,10 @@ To get information about the payment, run GET query:
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **paymentId** | number | Payment ID in the UnitPay system. |
-| **secretKey** | line | Project secret key.  |
+| **secretKey** | line | Project secret key. |
 
 You can run the query in test mode. [Learn more](../book-of-reference/test-api.md)
 
@@ -19,15 +17,13 @@ You can run the query in test mode. [Learn more](../book-of-reference/test-api.m
 
 ![](../.gitbook/assets/image%20%2812%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **status** | line | success — successful payment;   wait — payment is pending;   error — payment error;  error\_pay — error/failure of the store at the PAY stage; in statistics, it is displayed as "incomplete";   error\_check — error/failure of the store at the CHECK stage, in statistics it is displayed as "rejected";   refund — refund to the buyer;   secure — being verified by the Bank's security service. |
-| **paymentId**  | number | Payment ID in the UnitPay system |
-| **projectId**  | number | Project ID in the UnitPay system |
-| **account**  | line | Client \(order\) ID in the partner's system |
-| **purse**  | line | Purse \(account number\) from which the payment was made |
+| **paymentId** | number | Payment ID in the UnitPay system |
+| **projectId** | number | Project ID in the UnitPay system |
+| **account** | line | Client \(order\) ID in the partner's system |
+| **purse** | line | Purse \(account number\) from which the payment was made |
 | **profit** | number | Your income from this payment, rubles |
 | **paymentType** | line | [Payment system code](../book-of-reference/payment-system-codes.md) |
 | **orderSum** | number | Order amount. Make sure to check this value against the original order amount |
@@ -35,17 +31,13 @@ You can run the query in test mode. [Learn more](../book-of-reference/test-api.m
 | **date** | line | Payment date in the YYYY-mm-dd HH:ii:ss format \(for example, 2012-10-01 12:32:00\) |
 | **payerSum** | number | Amount debited from the subscriber's account |
 | **payerCurrency** | line | Currency of debiting from the subscriber's account according to ISO 4217 standard \(RUB, UAH, BYN, EUR, USD\) |
-| **errorMessage** | line | Error details \(only for the error status\)  |
+| **errorMessage** | line | Error details \(only for the error status\) |
 
 **Error response**
 
 ![](../.gitbook/assets/image%20%2811%29.png)
 
-
-
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
 | **message** | line | Information with a description of the request error. |
-
-
 

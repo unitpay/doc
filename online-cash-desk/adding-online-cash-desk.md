@@ -1,10 +1,10 @@
 # Adding online cash desk
 
-According to requirement 54-FZ, it is necessary to send receipts to the buyer and the Federal Tax Service of the Russian Federation. 
+According to requirement 54-FZ, it is necessary to send receipts to the buyer and the Federal Tax Service of the Russian Federation.
 
-To generate checks at the same time as making payments, you need to connect an online cashier. 
+To generate checks at the same time as making payments, you need to connect an online cashier.
 
-You can: 
+You can:
 
 * buy cash desk by yourself and integrate it through unitpay
 * connect a ready-made solution - Unit.Receipts

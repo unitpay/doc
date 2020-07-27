@@ -2,15 +2,15 @@
 
 **Initial moderation of the project**
 
-If the initial moderation is successful, payment acceptance will be available within 10 minutes after the project is added to the system. Such a project will be temporarily assigned to the Start category. 
+If the initial moderation is successful, payment acceptance will be available within 10 minutes after the project is added to the system. Such a project will be temporarily assigned to the Start category.
 
 Initially, your project is assigned to the **Start category**. This means that your project has passed the **initial verification**. After full verification of the project by the security department of Unitpay, other payment methods may be activated for you, payment acceptance fees may be reduced, and payouts from your account may become available.
 
-Full project verification is performed within 72 hours after successful identification of the account owner. Approval of some websites belonging to certain categories may take longer time.  
+Full project verification is performed within 72 hours after successful identification of the account owner. Approval of some websites belonging to certain categories may take longer time.
 
 **Identification of an individual when registering without a legal entity**
 
-The ability to withdraw funds, lower fees and access to all payment acceptance methods are provided to the identified partners only. These partners are users who have registered with a personal WebMoney certificate. To become an identified user without a WebMoney certificate, you need to pass the identification procedure. Those users who have more than one thousand \(1,000.00\) rubles on their account balance have the right to send identification documents on [My payouts](https://unitpay.money/partner/payout) page, 
+The ability to withdraw funds, lower fees and access to all payment acceptance methods are provided to the identified partners only. These partners are users who have registered with a personal WebMoney certificate. To become an identified user without a WebMoney certificate, you need to pass the identification procedure. Those users who have more than one thousand \(1,000.00\) rubles on their account balance have the right to send identification documents on [My payouts](https://unitpay.money/partner/payout) page,
 
 **In short**: withdrawal of funds from accounts without a legal entity or a personal WebMoney certificate is available to partners who have successfully passed the identification procedure.
 
@@ -59,7 +59,7 @@ The **project name** should match the name of the company, product or project us
 
 **BLOCKED**: the security department decided to reject the project. This may be due to its content, as well as the activities of the company itself.
 
-**ARCHIVED:** any project can be moved to a special archive, in this case, payment acceptance from your clients will no longer be available. The same status will be assigned to projects that have not had operations for more than two months since the last successful payment. 
+**ARCHIVED:** any project can be moved to a special archive, in this case, payment acceptance from your clients will no longer be available. The same status will be assigned to projects that have not had operations for more than two months since the last successful payment.
 
 **ON CONSTRUCTION:** If your site requires non-critical improvements, we will let you make them within 14 days after moderation. If you do not send the project for re-moderation within 14 days, it will be automatically archived. After completing the recommendations specified in the e-mail, please send the site for re-moderation by clicking the Modified button \(see the figure below\).
 
