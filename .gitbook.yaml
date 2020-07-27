@@ -33,3 +33,5 @@ redirects:
     category/51-category: payments/create-payment-easy.md
     category/87-api: unitpay-management/balance.md
     category/43-category: gotovye-moduli/unitpay-sdk.md
+    collection/1-unitpay: payments/create-payment-easy.md
+
