@@ -58,6 +58,7 @@
     * [Zen Cart](gotovye-moduli/modules/zen-cart.md)
     * [Taplink](gotovye-moduli/modules/taplink.md)
     * [Tilda](gotovye-moduli/modules/tilda.md)
+    * [UCoz](gotovye-moduli/modules/ucoz.md)
 * [Личный кабинет](unitpay-management/README.md)
   * [Текущий баланс](unitpay-management/balance.md)
   * [Комиссии проекта](unitpay-management/commissions.md)
