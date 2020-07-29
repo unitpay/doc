@@ -76,31 +76,35 @@ https://unitpay.ru/pay/111111-11111?sum=100&account=222111&desc=Online%20course&
   
    Значение PUBLIC KEY и SECRET KEY проекта можно найти на странице **Настройки** проекта![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5ec57700042863474d1b1775/file-hpo6F5M6aW.png)
 
-**Пример формирования цифровой подписи на PHP:**
+**Пример формирования цифровой подписи:**
 
-```text
+{% tabs %}
+{% tab title="PHP" %}
+```php
 function getFormSignature($account, $currency, $desc, $sum, $secretKey) {
     $hashStr = $account.'{up}'.$currency.'{up}'.$desc.'{up}'.$sum.'{up}'.$secretKey;
     return hash('sha256', $hashStr);
 }
 ```
+{% endtab %}
 
-**Пример формирования цифровой подписи на Perl:**
-
-```text
+{% tab title="Perl" %}
+```perl
 sub getSignature {
     my ($method, $params, $secretKey) = @_;
-    delete $params-&gt;{sign};
-    delete $params-&gt;{signature};
+    delete $params->{sign};
+    delete $params->{signature};
     my $s = $method;
     foreach my $key (sort keys %{$params}) {
-        $s .= '{up}' . $params-&gt;{$key};
+        $s .= '{up}' . $params->{$key};
     }
     $s .= '{up}' . $secretKey;
     use Digest::SHA qw(sha256_hex);
     return sha256_hex($s);
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 #### Метод оплаты по умолчанию
 
