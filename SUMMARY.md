@@ -66,7 +66,7 @@
 * [Справочник](book-of-reference/README.md)
   * [IP адреса системы](book-of-reference/ip-addresses.md)
   * [Внешний вид формы оплаты](book-of-reference/payment-form.md)
-  * [Статусы и ошибки платежей](book-of-reference/statusy-i-oshibki-platezhei.md)
+  * [Статусы и ошибки платежей](book-of-reference/statuses.md)
   * [Коды операторов](book-of-reference/operator-codes.md)
   * [Коды платежных систем](book-of-reference/payment-system-codes.md)
   * [Коды стран Qiwi](book-of-reference/qiwi-country-codes.md)
