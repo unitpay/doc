@@ -259,7 +259,7 @@ sub getSignature {
 | **message** | строка | Информация с описанием ошибки формирования платежа |
 
 {% hint style="info" %}
-Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../gotovye-moduli/modules/).  
+Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../modules/cms-modules/).  
 Для взаимодействия с API вы можете использовать библиотеку [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk).
 {% endhint %}
 

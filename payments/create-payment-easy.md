@@ -120,6 +120,6 @@ sub getSignature {
 | paymentId | число | Номер платежа в системе UnitPay |
 
 {% hint style="info" %}
-Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../gotovye-moduli/modules/).
+Если ваш сайт создан с помощью CMS, ознакомьтесь со списком [готовых модулей](../modules/cms-modules/).
 {% endhint %}
 
