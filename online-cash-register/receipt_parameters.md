@@ -70,7 +70,8 @@
     <tr>
       <td style="text-align:left">price</td>
       <td style="text-align:left">number</td>
-      <td style="text-align:left">&#x426;&#x435;&#x43D;&#x430;</td>
+      <td style="text-align:left">&#x426;&#x435;&#x43D;&#x430; &#x437;&#x430; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x443;
+        &#x442;&#x43E;&#x432;&#x430;&#x440;&#x430;</td>
     </tr>
     <tr>
       <td style="text-align:left">nds</td>
