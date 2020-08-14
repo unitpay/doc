@@ -45,6 +45,10 @@
   </tbody>
 </table>
 
+{% hint style="warning" %}
+Для формирования чека [возврата](../payments/payment-refund.md) достаточно передать **cashItems. customerEmail** или **customerPhone** не требуются
+{% endhint %}
+
 **Параметр cashItems формируется из:**
 
 <table>
