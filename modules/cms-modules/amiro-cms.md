@@ -8,7 +8,7 @@
 4. Go to Service -&gt; System settings -&gt; Payment Methods.
 5. Find Unitpay in the list of drivers and click Install.
 6. Click the Edit button in the Unitpay line and fill in the DOMAIN \(unitpay.money\), PUBLIC KEY and SECRET KEY fields which you can find in your unitpay.money account. Then click the Save button.
-7. Go to Service -&gt;System settings and select Product Catalog-&gt; Orders in the drop-down list.![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/589319b72c7d3a784630896a/file-gK9kaw5I6F.png](../.gitbook/assets/0%20%2811%29.png)
+7. Go to Service -&gt;System settings and select Product Catalog-&gt; Orders in the drop-down list.![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/589319b72c7d3a784630896a/file-gK9kaw5I6F.png](../../.gitbook/assets/0%20%2811%29.png)
 8. In the Available Payment Methods line, click the Edit button, select the necessary methods, including Unitpay, and then click Apply Changes at the bottom.
-9. In your Unitpay.ru account, enter the address of the payment handler [http://&lt;your](http://<your) site address&gt;/drivers/gate\_unitpay.php. Due to the features of the module, Format Error will flash red, this is normal.![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/58931dfd2c7d3a7846308987/file-yzfMRJS7QE.png](../.gitbook/assets/1%20%288%29.png)
+9. In your Unitpay.ru account, enter the address of the payment handler [http://&lt;your](http://<your) site address&gt;/drivers/gate\_unitpay.php. Due to the features of the module, Format Error will flash red, this is normal.![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/58931dfd2c7d3a7846308987/file-yzfMRJS7QE.png](../../.gitbook/assets/1%20%288%29.png)
 

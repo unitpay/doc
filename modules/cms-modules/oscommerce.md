@@ -12,5 +12,5 @@
 8. Click Save.
 9. In your Unitpay.ru account, enter the address of the payment handler [http://&lt;your](http://<your) site address&gt;/unitpay.php
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/583307d8903360645bfa6b08/file-yFI7WfJudH.png](../.gitbook/assets/0%20%2822%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/583307d8903360645bfa6b08/file-yFI7WfJudH.png](../../.gitbook/assets/0%20%2822%29.png)
 

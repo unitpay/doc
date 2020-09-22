@@ -6,7 +6,7 @@
 4. Add a new payment system, write Unitpay in the name and for example, Unitpay payment system in the description and click Apply.
 5. Click the Edit button next to the Unitpay payment system, then go to the Additional tab and remember the number in the ID field
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5836d65c9033600698172453/file-AlNALyI8nn.png](../.gitbook/assets/0%20%2815%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5836d65c9033600698172453/file-AlNALyI8nn.png](../../.gitbook/assets/0%20%2815%29.png)
 
 1. Next, go to the Main tab and copy the contents of the module file handlerXX.php in the Handler field
 2. In the name of Shop\_Payment\_System\_HandlerXX class, enter the ID you have previously remembered instead of XX.
@@ -14,5 +14,5 @@
 4. If necessary, assign the code of the currency \(which is available in the store\) in which you want to receive payments to the value of $currency\_name variable. It is RUB by default.
 5. In your Unitpay.ru account, enter the address of the payment handler [http://&lt;your](http://<your) site address&gt;/shop/cart/
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5836d9a3c6979106d373617d/file-WigCbE6rTX.png](../.gitbook/assets/1%20%2836%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5836d9a3c6979106d373617d/file-WigCbE6rTX.png](../../.gitbook/assets/1%20%2836%29.png)
 

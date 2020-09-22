@@ -12,7 +12,7 @@
 8. Go to Settings -&gt; Payment options and add a new payment option - Unitpay.
 9. Add the following code to core/includes/helper.php file:
 
-![](../.gitbook/assets/0%20%2834%29.png)
+![](../../.gitbook/assets/0%20%2834%29.png)
 
 1. Clear your cache by deleting the contents of the cache folder.
 2. In your Unitpay.ru personal account, enter the address of the payment handler [http://&lt;your](http://<your) site address&gt;/ndex.php?unitpay=yes

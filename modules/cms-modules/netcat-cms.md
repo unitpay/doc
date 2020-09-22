@@ -12,5 +12,5 @@
 8. Enter a name \(for example, Unitpay\), a description if you wish to, and select the Unitpay payment system, then click Save.
 9. Enter the address of the payment handler in your account on Unitpay.ru [http://](http://diafan.app/payment/get/unitpay)&lt;your site address&gt;[/netcat/modules/payment/callback.php?paySystem=nc\_payment\_system\_unitpay](http://netcat.app/netcat/modules/payment/callback.php?paySystem=nc_payment_system_unitpay)
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5873d94190336009736c4526/file-ODZ3kc59bF.png](../.gitbook/assets/0%20%2835%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5873d94190336009736c4526/file-ODZ3kc59bF.png](../../.gitbook/assets/0%20%2835%29.png)
 

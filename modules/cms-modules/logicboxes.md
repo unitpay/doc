@@ -6,7 +6,7 @@
 2. Copy the contents of the unitpay directory from the archive to any of your hostings.
 3. In the LogicBoxes panel, go to the Settings-&gt;finance & billing-&gt;payment gateway-&gt;list/add.
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/580a3a8290336070ba247d08/file-UvUDQyRVRR.png](../.gitbook/assets/0%20%282%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/580a3a8290336070ba247d08/file-UvUDQyRVRR.png](../../.gitbook/assets/0%20%282%29.png)
 
 1. Click on Add a gateway, then click Add it now at the bottom of the opened window.
 2. In the gateway url, enter [http://&lt;domain](http://<domain) linked to your hosting&gt;/unitpay/paymentpage.php

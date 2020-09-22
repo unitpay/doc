@@ -14,14 +14,14 @@ We advise to backup the database and the site before making the following operat
 8. with "Public key" name and "public\_key" ID,
 9. with "Secret key" name and "secret\_key" ID,
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/58121340c697915f88a393a3/file-oMZCf61KU1.png](../.gitbook/assets/0%20%2849%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/58121340c697915f88a393a3/file-oMZCf61KU1.png](../../.gitbook/assets/0%20%2849%29.png)
 
 1. Then click Save and Log out.
 2. Go to the Online store menu in the Payment tab.
 3. Select Unitpay in the Add method drop-down list.
 4. In the opened window, enter the name of the payment method, the domain \(unitpay.money\), as well as the public and secret keys which you can find in your Unitpay.money account. Then click the Add button to save your changes.
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/581213c4c697915f88a393ac/file-wrESbrNAZv.png](../.gitbook/assets/1%20%2821%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/581213c4c697915f88a393ac/file-wrESbrNAZv.png](../../.gitbook/assets/1%20%2821%29.png)
 
-1. In your unitpay.money account, enter  [http://&lt;your\_site\_name&gt;/&gt;/emarket/gateway](http://<your_site_name>/>/emarket/gateway) in the payment handler field. Do not be afraid of Format Error message. Due to the implementation features, it is normal in this case.![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5812118ac697915f88a3938b/file-ZP86eZKgB3.png](../.gitbook/assets/2%20%2818%29.png)
+1. In your unitpay.money account, enter  [http://&lt;your\_site\_name&gt;/&gt;/emarket/gateway](http://<your_site_name>/>/emarket/gateway) in the payment handler field. Do not be afraid of Format Error message. Due to the implementation features, it is normal in this case.![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5812118ac697915f88a3938b/file-ZP86eZKgB3.png](../../.gitbook/assets/2%20%2818%29.png)
 

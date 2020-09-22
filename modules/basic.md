@@ -1,4 +1,4 @@
-# Basic \(for online games\)
+# Payment handler
 
 Suitable for most projects. To install it, just [download the module](https://github.com/unitpay/base_module) and follow the instructions in the readme.txt file.
 

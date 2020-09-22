@@ -9,7 +9,7 @@ We recommend using the latest version of the platform. If your version is out of
 
 [http://your\_site/index.php?route=extension/payment/unitpay/callback](http://your_site/index.php?route=extension/payment/unitpay/callback) \(where "your\_site" is the site address of your online store\)
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 OpenCart 2.0.x-2.2.x requires a **different URL** for the payment processor:
 
