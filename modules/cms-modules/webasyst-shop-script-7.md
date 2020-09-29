@@ -2,7 +2,7 @@
 
 #### Инструкция по установке и настройке модуля.
 
-1. Скачайте [архив](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MDxJKwoVaj758xWx_jc%2F-MINU72_WdVBhDlUivMf%2F-MINVAw2kYlw_z0D7Q89%2Fshopscript-module-2.2.0.zip?alt=media&token=1785a76e-4802-449c-8b74-fce9f3d0170f) с модулем \(.zip\).
+1. Скачайте [архив](https://github.com/unitpay/shopscript-module/releases/tag/v2.1.0) с модулем \(.zip\).
 
 2. Копируем папку unitpay в wa-plugins/payment _\(ещё wa-plugins/payment есть внутри wa-sources - это не та директория что нужна, не перепутайте\)._
 
