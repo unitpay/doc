@@ -74,6 +74,7 @@
   * [Интерфейс кабинета реферера \(агента\)](referral-program/interface-of-referrer.md)
 * [Другие возможности](other/README.md)
   * [Использование тестового API](other/test-api.md)
+  * [Получение информации по БИН](other/getbininfo.md)
   * [Telegram бот](other/telegram.md)
 * [FAQ](faq-partners/README.md)
   * [Регистрация физ. лица](faq-partners/registration-without-legal-entity.md)
