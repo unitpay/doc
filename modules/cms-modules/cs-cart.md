@@ -2,7 +2,7 @@
 
 **The Module Setup and Installation Instruction**
 
-1. Download the [archive](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-M9Y_k8Gr-WxeECFRelw%2F-MIKIPg6DtJz_Uixc6XV%2F-MIKK5bPLcmwqZotem3O%2Fcscart-addon%203.0.1.zip?alt=media&token=6d4613b5-bc8e-429e-8676-7a60bff64609) with the module. 
+1. Download the [archive](https://github.com/unitpay/cscart-module/releases/tag/3.0.0) with the module. 
 2. Copy the contents of the "**unitpay-addon**" folder from the archive to the root of your site. 
 3. Go to the administrative panel under "**Modules → Module Management**", find the "**unitpay**" module and install it by clicking on the "**Install**" button. Wait for the installation. 
 4. Go to "**Administration → Payment Methods**" and press the "**+**" button.
