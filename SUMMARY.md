@@ -91,5 +91,5 @@
   * [Оплата по ссылке](faq-partners/link-payment.md)
   * [Тарифы и лимиты](faq-partners/rates-limits.md)
   * [Онлайн-кассы](faq-partners/online-kassa.md)
-  * [Чеки](faq-partners/cheki.md)
+  * [Чеки](faq-partners/receipts.md)
 
