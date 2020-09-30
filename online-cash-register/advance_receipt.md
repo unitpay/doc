@@ -8,7 +8,11 @@
 Система не валидирует соответствие данных для чека прихода предоплаты и данных чека предоплаты. Будьте внимательны.
 {% endhint %}
 
-{% api-method method="get" host="" path="https://unitpay.money/api?method=offsetAdvance" %}
+{% hint style="warning" %}
+Поддерживается только для следующих онлайн-касс: Юнит.Чеки и Атол
+{% endhint %}
+
+{% api-method method="get" host="" path="https://unitpay.money/api?method=offsetAdvance&params\[bin\]=your\_bin&params\[secretKey\]=your\_account\_secret\_key&params\[login\]=your\_email" %}
 {% api-method-summary %}
 offsetAdvance
 {% endapi-method-summary %}
@@ -33,7 +37,8 @@ id платежа, по которому происходит зачет ава�
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="cashitems" type="string" required=false %}
-Обязателен, если по платежу уже были произведены зачеты аванса. Если cashItems не передан, происходит зачет аванса всего платежа
+Обязателен, если по платежу уже были произведены зачеты аванса. Если cashItems не передан, происходит зачет аванса всего платежа  
+Подробнее про cashitems здесь.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
