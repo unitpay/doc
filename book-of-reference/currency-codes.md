@@ -1,5 +1,7 @@
 # Currency codes
 
+
+
 | Code | Currency |
 | :--- | :--- |
 | RUB | Russian Ruble |
