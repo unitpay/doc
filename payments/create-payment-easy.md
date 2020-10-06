@@ -33,7 +33,8 @@ It is mandatory to specify the payment form language, acceptable values: ru, en.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="currency" type="string" required=false %}
-The order currency according to ISO 4217 \(RUB, UAH, BYN, EUR, USD\). If the payment system does not support the required currency, the amount will be converted to the payment system currency
+The order currency according to ISO 4217 \(RUB, UAH, BYN, EUR, USD etc. Currency codes https://help.unitpay.ru/v/master/book-of-reference/payment-system-codes\).   
+If the payment system does not support the required currency, the amount will be converted to the payment system currency
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="signature" type="string" required=true %}

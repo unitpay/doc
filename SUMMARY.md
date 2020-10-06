@@ -66,7 +66,7 @@
   * [Using the Test API](book-of-reference/test-api.md)
   * [Operator Codes](book-of-reference/operator-codes.md)
   * [Payment System Codes](book-of-reference/payment-system-codes.md)
-  * [Alphabetic currency codes](book-of-reference/currency-codes.md)
+  * [Currency codes](book-of-reference/currency-codes.md)
   * [Qiwi Country Codes](book-of-reference/qiwi-country-codes.md)
 * [Referral program](referral-program/README.md)
   * [Interface of Referrer's \(Agent's\) Account](referral-program/interface-of-referrer.md)

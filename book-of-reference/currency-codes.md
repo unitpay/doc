@@ -1,4 +1,4 @@
-# Alphabetic currency codes
+# Currency codes
 
 | Code | Currency |
 | :--- | :--- |
