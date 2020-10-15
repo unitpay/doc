@@ -12,7 +12,7 @@
 Поддерживается только для следующих онлайн-касс: Юнит.Чеки и Атол
 {% endhint %}
 
-{% api-method method="get" host="" path="https://unitpay.money/api?method=offsetAdvance&params\[paymentId\]=paymentID&params\[secretKey\]=your\_account\_secret\_key&params\[login\]=your\_email" %}
+{% api-method method="get" host="" path="https://unitpay.ru/api?method=offsetAdvance&params\[paymentId\]=paymentID&params\[secretKey\]=your\_account\_secret\_key&params\[login\]=your\_email" %}
 {% api-method-summary %}
 offsetAdvance
 {% endapi-method-summary %}
