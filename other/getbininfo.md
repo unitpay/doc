@@ -36,7 +36,7 @@ Cake successfully retrieved.
         "bankUrl": "",
         "bankPhone": ""
     }
-}аметра purse.
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
