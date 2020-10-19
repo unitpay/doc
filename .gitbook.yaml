@@ -30,7 +30,8 @@ redirects:
     article/78-qiwi-country-codes: book-of-reference/qiwi-country-codes.md
     article/168-telegram: other/telegram.md
     article/252-article: online-cash-register/receipt_parameters.md
-    category/51-category: payments/create-payment-easy.md
+    category/51-category: first_steps/registration.md
+    category/54-api: payments/create-payment-easy.md
     category/87-api: unitpay-management/balance.md
     category/43-category: gotovye-moduli/unitpay-sdk.md
     collection/1-unitpay: payments/create-payment-easy.md
