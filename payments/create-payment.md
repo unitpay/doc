@@ -131,7 +131,7 @@ sub getSignature {
       "success": 1,
       "orderId": "123",
       "appleResponse": {
-        /*объект*/
+        /* объект */
       },
       "approveUrl": "url"
     }
