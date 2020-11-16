@@ -62,6 +62,8 @@
     * [UCoz](modules/cms-modules/ucoz.md)
     * [CMS-S3](modules/cms-modules/cms-s3.md)
 * [Личный кабинет](unitpay-management/README.md)
+  * [Подключение Яндекс.Деньги](unitpay-management/podklyuchenie-yandeks.dengi.md)
+  * [Подключение PayPal](unitpay-management/podklyuchenie-paypal.md)
   * [Текущий баланс](unitpay-management/balance.md)
   * [Комиссии проекта](unitpay-management/commissions.md)
   * [Курсы конвертации валют](unitpay-management/conversion-rates.md)
