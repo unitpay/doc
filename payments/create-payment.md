@@ -76,7 +76,7 @@ sub getSignature {
 
 ```text
 {"result": {
-    "message": "Платеж успешно создан.",
+    "message": "Payment was created successfully.",
     "paymentId": "1400072",  
     "type": "redirect", 
     "redirectUrl": "http://unitpay.ru/pay/redirect/111-ab34c22" 
@@ -94,7 +94,7 @@ sub getSignature {
 
 ```text
 {"error": {
-    "message": "Описание ошибки"
+    "message": "Error description"
 }}
 ```
 
