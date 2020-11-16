@@ -35,7 +35,7 @@ We advise to backup the database and the site before making the following operat
 
 13. In the opened window, enter the name of the payment method, the domain \(unitpay.money\), as well as the public and secret keys which you can find in your Unitpay.money account. Then click the Add button to save your changes.
 
-![](../../.gitbook/assets/123123%20%281%29.png)
+![](../../.gitbook/assets/123124.png)
 
 ![](../../.gitbook/assets/4253476sh.png)
 
