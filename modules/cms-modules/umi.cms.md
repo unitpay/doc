@@ -33,11 +33,11 @@ We advise to backup the database and the site before making the following operat
 
 ![](../../.gitbook/assets/123123%20%281%29.png)
 
-13. In the opened window, enter the name of the payment method, the domain \(unitpay.money\), as well as the public and secret keys which you can find in your Unitpay.money account. Then click the Add button to save your changes.
+13. In the opened window, enter the name of the payment method, the domain \(unitpay.ru\), as well as the public and secret keys which you can find in your Unitpay.ru account. Then click the Add button to save your changes.
 
 ![](../../.gitbook/assets/123124.png)
 
 ![](../../.gitbook/assets/4253476sh.png)
 
-14. In your unitpay.money account, enter  [http://&lt;your\_site\_name&gt;/&gt;/emarket/gateway](http://<your_site_name>/>/emarket/gateway) in the payment handler field. Do not be afraid of Format Error message. Due to the implementation features, it is normal in this case.![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5812118ac697915f88a3938b/file-ZP86eZKgB3.png](../../.gitbook/assets/2%20%2818%29.png)
+14. In your unitpay.ru account, enter  [http://&lt;your\_site\_name&gt;/&gt;/emarket/gateway](http://<your_site_name>/>/emarket/gateway) in the payment handler field. Do not be afraid of Format Error message. Due to the implementation features, it is normal in this case.![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5812118ac697915f88a3938b/file-ZP86eZKgB3.png](../../.gitbook/assets/2%20%2818%29.png)
 
