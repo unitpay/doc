@@ -16,7 +16,7 @@ To interact with the API, use the [Unitpay PHP-SDK](https://github.com/unitpay/p
 | **desc** | line | Order description |
 | **ip** | line | Payer's IP address |
 | **secretKey** | line | Secret key, available in the project settings |
-| **signature** | строка | Ц_ифровая подпись запроса. Они защищает вас от злоумышленников - подмены описания или стоимости заказа, размещения ссылки на оплату на ресурсах мошенников.   Образуется как sha256\( account + "{up}" + currency + "{up}" + desc + "{up}" + sum + "{up}" + secretKey\),    где sha256 - метод хеширования;    "{up}" - разделитель параметров в хеш-функции;    secretKey - секретный ключ проекта \(доступен в личном кабинете\);     Важно. Если вы не передаете  currency на форму оплаты, то этот параметр не должен участвовать в формировании подписи._ |
+| **signature** | строка | Digital signature. It is formed as sha256\( account + "{up}" + currency + "{up}" + desc + "{up}" + sum + "{up}" + secretKey\),   where **sha256** is the hashing method;    **"{up}"** is the parameter separator in the hash function;  **account**, **sum**, **currency**, **desc**  are the payment initialization parameters described above;  **secretKey**  is the secret key of the project \(available in your personal account\);    **Important Note**. If you do not transmit **currency** to the payment form, this parameter should not be used in signature generation. |
 
 **Parameters depending on the type of payment:**
 
@@ -46,15 +46,7 @@ You can run the query in test mode. [Learn more](../book-of-reference/test-api.m
 
 For additional security of your payments, we perform mandatory verification of the digital signature when creating a payment. The signature guarantees protection against the substitution of the transmitted values \(e.g., changing the payment amount or order number\).
 
-![](../.gitbook/assets/image%20%2823%29.png)
-
-\*\*\*\*
-
-|  | **Value** | **Description** |
-| :--- | :--- | :--- |
-| **signature** | line | Digital signature. It is formed as sha256\( account + "{up}" + currency + "{up}" + desc + "{up}" + sum + "{up}" + secretKey\),   where **sha256** is the hashing method;    **"{up}"** is the parameter separator in the hash function;  **account**, **sum**, **currency**, **desc**  are the payment initialization parameters described above;  **secretKey**  is the secret key of the project \(available in your personal account\);    **Important Note**. If you do not transmit **currency** to the payment form, this parameter should not be used in signature generation. |
-
-**Пример формирования цифровой подписи на PHP:**
+**Example of creating a digital signature in PHP:**
 
 ```text
 function getFormSignature($account, $currency, $desc, $sum, $secretKey) {
@@ -63,7 +55,7 @@ function getFormSignature($account, $currency, $desc, $sum, $secretKey) {
 }
 ```
 
-**Пример формирования цифровой подписи на Perl:**
+**Example of creating a digital signature in Perl:**
 
 ```text
 sub getSignature {
