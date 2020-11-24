@@ -12,7 +12,7 @@ As a merchant, you can use Google Pay via Unitpay checkout page.
 
 Google Pay will be available for you after integration. 
 
-[Here ](https://help.unitpay.ru/first_steps)you can read about first steps to integration \(registration, adding a project\). 
+[Here ](https://help.unitpay.ru/first_steps)you can read about first steps of integration \(registration, adding a project\). 
 
 [Here ](https://help.unitpay.ru/payments)you can read about work with payments.
 
