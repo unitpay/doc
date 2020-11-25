@@ -18,11 +18,11 @@ As a merchant, you can use **Google Pay** via **Unitpay** checkout page.
 
 [Here ](https://help.unitpay.ru/payments)you can read about work with payments.
 
-You can check the availability of accepting payments via **Google Pay** on the settings page of your project in **Unitpay**. Like here in the picture ↓
+You can check the availability of accepting payments via **Google Pay** on the settings page of your project in **Unitpay**. As shown in the picture below:
 
 ![](.gitbook/assets/2020-11-24_18-42-22.png)
 
-The payer will be shown a page with the product name, price and **Google Pay** button. Like here in the picture ↓
+The payer will see a page with the name of product, prices and **Google pay** button:
 
 ![](.gitbook/assets/image%20%2845%29.png)
 
