@@ -24,7 +24,5 @@ You can check the availability of accepting payments via **Google Pay** on the s
 
 The payer will see a page with the name of product, prices and **Google pay** button:
 
-![](.gitbook/assets/image%20%2845%29.png)
-
- 
+![](.gitbook/assets/image%20%2846%29.png)
 
