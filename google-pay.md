@@ -2,11 +2,11 @@
 description: in progress now
 ---
 
-# Google Pay
+# Google Pay™
 
 \[ _We are working on the ability to use **Google Pay** now. Estimated release date - December 2020_ \]. 
 
-**Google Pay** is a fast and simple payment method that allows you to make card payments without entering card details for each payment. The card data is safely stored by **Google**. This payment method is available for all devices \(mobile phones and computers\), regardless of the operating system and web browser.
+**Google Pay**™ is a fast and simple payment method that allows you to make card payments without entering card details for each payment. The card data is safely stored by **Google**. This payment method is available for all devices \(mobile phones and computers\), regardless of the operating system and web browser.
 
 Unitpay gives you a way to easily add it on your checkout page, making it more convenient for your clients to pay on your website.
 
