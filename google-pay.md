@@ -22,7 +22,13 @@ You can check the availability of accepting payments via **Google Pay** on the s
 
 ![](.gitbook/assets/2020-11-24_18-42-22.png)
 
-The payer will see a page with the name of product, prices and **Google pay** button:
+The payer will see a page with the name of product, prices and **Google Pay** button:
 
 ![](.gitbook/assets/image%20%2846%29.png)
+
+**Google Pay** documentation:
+
+* [Google Pay for payments on websites](https://developers.google.com/pay/api/web/)
+* [Integration checklist](https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist)
+* [Brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines)
 
