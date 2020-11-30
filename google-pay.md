@@ -69,7 +69,7 @@ Supported authorization methods:
 ]
 ```
 
-Billing request parameter `BillingAddressParameters`not used. 
+Billing request parameter `BillingAddressParameters`is not used. 
 
 **Charging**
 
