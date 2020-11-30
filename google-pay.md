@@ -51,6 +51,26 @@ The value of the `gatewayMerchantId` parameter should be the identifier of the p
 
 In response, Google shall return the `PaymentData` item, and the field `paymentMethodData.tokenizationData.token` shall contain a safely encrypted **Google Pay™** Token \(a string of characters\).
 
+Supported payment systems:
+
+```text
+"allowedCardNetworks": [
+    "MASTERCARD",
+    "VISA"
+]
+```
+
+Supported authorization methods:
+
+```text
+"allowedAuthMethods": [
+    "PAN_ONLY",
+    "CRYPTOGRAM_3DS"
+]
+```
+
+Billing request parameter `BillingAddressParameters`not used. 
+
 **Charging**
 
 To charge the payment card stored under **Google Pay™**, in the direct method request fill in `paymentType` and `token` with the following values:
