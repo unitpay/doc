@@ -36,7 +36,7 @@ The payer will see a page with the name of product, prices and **Google Pay**™
 
 * You should register with **Google Pay**™ **API** to proceed with this integration option.
 * Your website should use HTTPS and support TLS protocol.
-* You should be [registered](https://space.tranzzo.com/signup) with **Unitpay** as a merchant.
+* You should be registered with **Unitpay** as a merchant.
 
 #### Instruction
 
@@ -47,16 +47,16 @@ Firstly please review the following documentation in order to get familiar with 
 
 The `gateway` parameter in the script should have the constant value of `unitpay`.
 
-The value of the `gatewayMerchantId` parameter should be the identifier of the payment point \(`pos_id`\) where the order is made.
+The value of the `gatewayMerchantId` parameter should be the identifier of the payment point where the order is made.
 
 In response, Google shall return the `PaymentData` item, and the field `paymentMethodData.tokenizationData.token` shall contain a safely encrypted **Google Pay™** Token \(a string of characters\).
 
 **Charging**
 
-To charge the payment card stored under **Google Pay™**, in the [direct method](https://cdn.tranzzo.com/tranzzo-api/index.html#direct-payments-using-tranzzo-tokens) request fill in `payway` and `cc_token` with the following values:
+To charge the payment card stored under **Google Pay™**, in the direct method request fill in `paymentType` and `token` with the following values:
 
-* `"payway": "gpay"`
-* `"cc_token": "gpay:${base64_google_encrypted_token}"`
+* `"paymentType": "googlepay"`
+* `"token": "${paymentMethodData.tokenizationData.token}"`
 
 Further processing of the request is subject to the standard payment process.
 
