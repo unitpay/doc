@@ -2,7 +2,7 @@
 
 **The Module Setup and Installation Instruction**
 
-1. Download the [archive](https://github.com/unitpay/commerce-module) with the module.
+1. Download the [archive](https://github.com/unitpay/commerce-module/archive/master.zip) with the module.
 2. Install the module. To do this, copy the contents of the Unitpay directory from the archive to the address &lt;folder with your site&gt;/sites/all/modules. After that, click Modules in the menu, check the box next to Unitpay and click Save сonfiguration.
 
 ![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5790e6dac6979160ca145f87/file-sI2HHz5cfy.png](../../.gitbook/assets/0%20%285%29.png)
