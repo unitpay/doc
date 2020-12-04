@@ -2,7 +2,7 @@
 
 ### Инструкция по настройке и установке модуля.
 
-1. Скачайте  [архив](https://github.com/unitpay/virtuemart-module) с модулем. Модуль тестировался на VirtueMart 3 с Joomla 3.5.1
+1. Скачайте  [архив](https://github.com/unitpay/virtuemart-module/archive/master.zip) с модулем. Модуль тестировался на VirtueMart 3 с Joomla 3.5.1
 
 2. Зайдите в админпанель сайта.
 
