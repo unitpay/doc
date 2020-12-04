@@ -2,7 +2,7 @@
 
 ### Инструкция по настройке и установке модуля.
 
-1. Скачайте  [архив](https://github.com/unitpay/oscommerce-module) с модулем.
+1. Скачайте  [архив](https://github.com/unitpay/oscommerce-module/archive/master.zip) с модулем.
 
 2. Скопируйте содержимое директории unitpay из архива в корень вашего сайта.
 
@@ -11,6 +11,8 @@
 4. Выберите "Unitpay" и нажмите "Install Module".
 
 6.Нажмите кнопку "Edit" для "unitpay".
+
+![](../../.gitbook/assets/2020-12-04_162611.png)
 
 7. Введите домен \(DOMAIN\) - unitpay.ru, публичный ключ \(PUBLIC KEY\) и секретный ключ \(SECRET KEY \), их вы можете взять из личного кабинета unitpay.ru.
 
@@ -21,4 +23,12 @@
 10. В личном кабинете Unitpay.ru введите адрес обработчика платежей [http://&lt;адрес](http://xn--%3C-8cdug0fj/) вашего сайта&gt;/unitpay.php
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/583307d8903360645bfa6b08/file-yFI7WfJudH.png)
+
+11. НДС для товаров задается на странице "Locations / Taxes" -&gt; "Tax Rates"
+
+![](../../.gitbook/assets/2020-12-04_162912.png)
+
+12. В новом товаре задаете нужный Tax Class 
+
+![](../../.gitbook/assets/bc2ecf2309cb6c0004723ad38a886f02.png)
 
