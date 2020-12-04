@@ -22,3 +22,7 @@ Do not use the url from the "URL to go to on successful payment/error" fields in
 
 **Should you have any questions, please do not hesitate to contact your account manager or use our 24/7 Unit.Help chat widget.**
 
+{% hint style="warning" %}
+VAT is set in your account settings in your Unitpay merchant profile when you fill in the organization information on the [/partner/contract](https://unitpay.ru/partner/contract) page. VAT settings are not passed in Insales itself.
+{% endhint %}
+
