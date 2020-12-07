@@ -10,7 +10,7 @@
 
 2. Перейдите по ссылке  [**http://ваш\_сайт/\_admin/engine.php?mod\_id=ami\_market&upload=1**](http://xn--_-7sbbf2b7bj7b/_admin/engine.php?mod_id=ami_market&upload=1)
 
-3. Выберите в качестве файла дистрибутива архив в формат tag.gz с модулем и загрузите его.
+3. Выберите в качестве файла дистрибутива архив в формате tag.gz с модулем и загрузите его.
 
 ![](../../.gitbook/assets/am1.png)
 
