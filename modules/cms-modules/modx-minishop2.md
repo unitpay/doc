@@ -1,6 +1,6 @@
 # MODX \(miniShop2\)
 
-Instructions for configuring and installing the module.
+**Instructions for configuring and installing the module.**
 
 1. Download the [archive with the module](https://github.com/unitpay/modx/archive/main.zip).
 
