@@ -65,7 +65,7 @@
     * [BILLmanager](modules/cms-modules/billmanager.md)
 * [Личный кабинет](unitpay-management/README.md)
   * [Инструкция по интерфейсу](unitpay-management/instrukciya-po-interfeisu.md)
-  * [Подключение Яндекс.Деньги](unitpay-management/podklyuchenie-yandeks.dengi.md)
+  * [Подключение ЮMoney \(бывшие "Яндекс.Деньги"\)](unitpay-management/podklyuchenie-yandeks.dengi.md)
   * [Подключение PayPal](unitpay-management/podklyuchenie-paypal.md)
   * [Текущий баланс](unitpay-management/balance.md)
   * [Комиссии проекта](unitpay-management/commissions.md)
