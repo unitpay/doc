@@ -57,6 +57,7 @@
     * [Zen Cart](modules/cms-modules/zen-cart.md)
     * [Amiro CMS](modules/cms-modules/amiro-cms.md)
     * [CMS NWICODE](modules/cms-modules/cms-nwicode.md)
+    * [MODX \(miniShop2\)](modules/cms-modules/modx-minishop2.md)
 * [Manage Unitpay](unitpay-management/README.md)
   * [Current Balance](unitpay-management/balance.md)
   * [Commissions](unitpay-management/commissions.md)
