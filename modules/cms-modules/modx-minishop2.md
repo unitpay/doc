@@ -2,7 +2,7 @@
 
 ### Инструкция по настройке и установке модуля.
 
-1. Скачайте а[рхив с модулем](https://github.com/unitpay/modx/archive/main.zip).
+1. Скачайте [архив с модулем.](https://github.com/unitpay/modx/archive/main.zip)
 
 2. Скопируйте содержимое директории unitpay из архива в корень вашего сайта.
 
