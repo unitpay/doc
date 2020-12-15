@@ -12,7 +12,7 @@
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e68c38e2c7d3a7e9ae90120/file-ZT3pa1HeMz.png)
 
-4. Введите в личном кабинете Unitpay.ru обработчик платежей по шаблону [http://&lt;имя\_вашего\_сайта&gt;/unitpay/callback](http://xn--%3C__-7vebaolv6au8a9a1ct4h3f/)&gt;/unitpay/callback
+4. Введите в личном кабинете Unitpay.ru обработчик платежей по шаблону [http://&lt;имя\_вашего\_сайта&gt;](http://xn--%3C__-7vebaolv6au8a9a1ct4h3f/)/unitpay/callback
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5790eaed9033602936037f10/file-d5eQvOskcg.png)
 
