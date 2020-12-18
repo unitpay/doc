@@ -6,14 +6,23 @@
 2. Unpack the contents of the archive to the root of the site.
 3. Add the following lines in phpshop/inc/config.php file:
 
-![](../../.gitbook/assets/0%20%2826%29.png)
+```text
+[unitpay]
 
-| Ваш публичный ключ из личного кабинета unitpay.money | Your public key from your unitpay.money account |
-| :--- | :--- |
-| Ваш секретный ключ из личного кабинета unitpay.money | Your secret key from your unitpay.money account |
+domain = "unitpay.ru";
 
-1. In the admin panel, go to Orders -&gt; Payment Methods and add Unitpay payment method.
-2. In your unitpay.money account, enter the address of the payment handler [http://&lt;your](http://<your) site address&gt;/payment/unitpay/result.php
+public_key = "<Ваш публичный ключ из личного кабинета unitpay.ru>";
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/58cc04892c7d3a79f5f8d4f5/file-8ygNqAPAqM.png](../../.gitbook/assets/1%20%2814%29.png)
+secret_key = "<Ваш секретный ключ из личного кабинета unitpay.ru>";
+```
+
+4. In the admin panel, go to Orders -&gt; Payment Methods and add Unitpay payment method. Check that the "Show" checkbox is checked.
+
+5. In your unitpay.money account, enter the address of the payment handler [http://&lt;your](http://<your) site address&gt;/payment/unitpay/result.php
+
+![](../../.gitbook/assets/1%20%2814%29.png)
+
+6. VAT and currency are set in "Settings" - &gt; "Main Settings". If you need to select "WITHOUT VAT", then uncheck "Include VAT in invoice".
+
+![](../../.gitbook/assets/php3.png)
 
