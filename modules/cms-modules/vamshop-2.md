@@ -2,7 +2,7 @@
 
 ### Инструкция по настройке и установке модуля.
 
-1. Скачайте [архив](https://github.com/unitpay/vamshop-module) с модулем.
+1. Скачайте [архив](https://github.com/unitpay/vamshop-module/archive/master.zip) с модулем.
 
 2. Скопируйте содержимое директории "unitpay" из архива в корень вашего сайта.
 
@@ -19,4 +19,8 @@
 7. В личном кабинете Unitpay.ru введите адрес обработчика платежей  [http://](http://diafan.app/payment/get/unitpay)[&lt;адрес](http://xn--%3C-8cdug0fj/) вашего сайта&gt;/payment/Unitpay/callback
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5878dfd390336009736c6611/file-c5YN9i11tC.png)
+
+8. НДС задается внутри настроек модуля: Настройки -&gt; Способы оплаты -&gt; Редактирование способа оплаты
+
+![](../../.gitbook/assets/v1.png)
 
