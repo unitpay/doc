@@ -75,5 +75,6 @@
   * [Interface of Referrer's \(Agent's\) Account](referral-program/interface-of-referrer.md)
 * [Other](other/README.md)
   * [Telegram bot](other/telegram.md)
+  * [Using the Test API](other/using-the-test-api.md)
 * [Google Pay™](google-pay.md)
 
