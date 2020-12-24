@@ -55,7 +55,7 @@
 
 ### Комиссии и платежные методы
 
-После модерации вам доступен прием денег через банковские карты, мобильную коммерцию, Samsung Pay, Apple Pay, Qiwi. Также вы можете подключить оплату через Paypal.
+После модерации вам доступен прием денег через банковские карты, мобильную коммерцию, Samsung Pay, Apple Pay, Google Pay, Qiwi. Также вы можете подключить оплату через Paypal.
 
 ![](https://lh3.googleusercontent.com/GvHlTe8o7ZI_z3SrJSWFacTQcmlzM7A7Yzr7wfNQbZHbaTZb_iqiirXHzAB9fkCokTFOdWSs9ZwKFLmiJZOx8Z_PtXIe1-rN4EooGk-koR8DkLobQHaMUDnsZNtEmRR0ZBStXJN8)
 
