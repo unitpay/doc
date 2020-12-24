@@ -20,13 +20,14 @@
 
 ![](../../.gitbook/assets/rs1.png)
 
-9. В личном кабинете unitpay.ru введите адрес обработчика платежей  [http://](http://%20/)[&lt;адрес](http://xn--%3C-8cdug0fj/) вашего сайта&gt;[/onlinepay/unitpay/result/](http://ttestt.ru/onlinepay/unitpay/result/)
+9. В личном кабинете unitpay.ru введите адрес обработчика платежей    
+[http://](http://%20/)[&lt;адрес](http://xn--%3C-8cdug0fj/) вашего сайта&gt;[/onlinepay/unitpay/result/](http://ttestt.ru/onlinepay/unitpay/result/)
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/58dced772c7d3a52b42f0f2a/file-3ICMy8RBWB.png)
 
 p.s. В обработчике платежей высветится сообщение "Ошибка формата", не обращайте на это внимания.
 
-9. НДС задается на странице "Магазин" -&gt; "Налоги". Задайте соответствующий вашему налогу идентификатор: vat0, vat10, vat20 
+10. НДС задается на странице "Магазин" -&gt; "Налоги". Задайте соответствующий вашему налогу идентификатор: vat0, vat10, vat20 
 
 ![](../../.gitbook/assets/rs3.png)
 
