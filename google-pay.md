@@ -88,3 +88,7 @@ Please note that it may be necessary to handle a redirect of the request to the 
 * [Integration checklist](https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist)
 * [Brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines)
 
+{% hint style="info" %}
+If the card supports 3DS for PAN\_ONLY credentials, you will receive a redirectUrl in response, where you need to redirect the payer.
+{% endhint %}
+
