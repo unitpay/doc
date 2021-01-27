@@ -71,7 +71,7 @@ To cancel the payment with pre-authorization \(unblock the funds on the payer's 
 | :--- | :--- | :--- |
 | message | line | Information with a description of the request error. |
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Payments with Pre-authorization don't work simultaneously with [subscriptions](https://help.unitpay.ru/v/master/payments/recurring-payments/create-subscription)
 {% endhint %}
 
