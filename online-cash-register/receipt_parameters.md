@@ -68,18 +68,21 @@
     <tr>
       <td style="text-align:left">name</td>
       <td style="text-align:left">string</td>
-      <td style="text-align:left">&#x41D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;</td>
+      <td style="text-align:left">&#x41D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; <em>(&#x43E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;)</em>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">count</td>
       <td style="text-align:left">number</td>
-      <td style="text-align:left">&#x41A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;</td>
+      <td style="text-align:left">&#x41A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; <em>(&#x43E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;)</em>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">price</td>
       <td style="text-align:left">number</td>
       <td style="text-align:left">&#x426;&#x435;&#x43D;&#x430; &#x437;&#x430; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x443;
-        &#x442;&#x43E;&#x432;&#x430;&#x440;&#x430;</td>
+        &#x442;&#x43E;&#x432;&#x430;&#x440;&#x430; <em>(&#x43E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;)</em>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">currency</td>
