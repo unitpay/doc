@@ -1,10 +1,4 @@
----
-description: in progress now
----
-
 # Google Pay™
-
-\[ _We are working on the ability to use **Google Pay**_™ _now. Estimated release date - December 2020_ \]. 
 
 ### **About Google Pay**™
 
