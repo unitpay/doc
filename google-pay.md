@@ -43,6 +43,11 @@ The `gateway` parameter in the script should have the constant value of `unitpay
 
 The value of the `gatewayMerchantId` parameter should be the identifier of the payment point where the order is made.
 
+```text
+"gateway": "unitpay"
+"gatewayMerchantId": "YOUR_GATEWAY_MERCHANT_ID"
+```
+
 In response, Google shall return the `PaymentData` item, and the field `paymentMethodData.tokenizationData.token` shall contain a safely encrypted **Google Pay™** Token \(a string of characters\).
 
 Supported payment systems:
@@ -74,15 +79,19 @@ To charge the payment card stored under **Google Pay™**, in the direct method 
 
 Further processing of the request is subject to the standard payment process.
 
+{% hint style="info" %}
+If the card supports 3DS for PAN\_ONLY credentials, you will receive a redirectUrl in response, where you need to redirect the payer.
+{% endhint %}
+
 Please note that it may be necessary to handle a redirect of the request to the 3D Secure authentication page.
+
+* `"redirectUrl": "https://{url-for-redirect}..."`
+
+After creating the payment, you will receive `paymentId`, by which you can [check](https://help.unitpay.ru/v/master/payments/payment-info) the status of the payment.
 
 **Google Pay**™ documentation:
 
 * [Google Pay for payments on websites](https://developers.google.com/pay/api/web/)
 * [Integration checklist](https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist)
 * [Brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines)
-
-{% hint style="info" %}
-If the card supports 3DS for PAN\_ONLY credentials, you will receive a redirectUrl in response, where you need to redirect the payer.
-{% endhint %}
 
