@@ -69,7 +69,7 @@
 
 ![](https://lh3.googleusercontent.com/JguQnou9QPbrhvVmioie2ZVQsYy1tJAwq5cB8RRP8W2WGETS-WLYTMjOdBxUMXz9bExpRPO5sW3TisDoDaIV33HGYaGOyH-nIWZOhVxdnzOkseDWMLInlynD0HeGSTnycLT6QMnp)
 
-Далее вы попадете на страницу с перечнем документов, которые необходимо предоставить нашей поддержке на почту [partners@unitpay.ru](mailto:partners@unitpay.ru), а также заполнить формы и скачать 2 Анкеты. 
+Далее вы попадете на страницу с перечнем документов, которые необходимо предоставить нашей поддержке на почту legal@unitpay.ru, а также заполнить формы и скачать 2 Анкеты. 
 
 ![](https://lh4.googleusercontent.com/q9FrWoLpR0M3sDo7YD1usUDY-1v9PI-NSgrDwnhzXgD9Z8lJSJBpu3rMMbVQgwEPIl6MNWRoPF8BQYWhG61T3w5FC1YxdCtocNdqK0RbNdwfnMlub70fgQNMpfO8cA2WTdSSbD7P)
 
