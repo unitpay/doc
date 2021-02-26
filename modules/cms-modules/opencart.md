@@ -4,6 +4,10 @@
 
 Мы рекомендуем пользоваться последней версией платформы. Если ваша версия устарела, то ее можно обновить. Подробнее [тут](http://docs.opencart.com/en-gb/upgrading/).
 
+{% hint style="info" %}
+Для каждой версии OpenCart разработан свой модуль Unitpay. [Список модулей](https://github.com/unitpay/opencart-module)
+{% endhint %}
+
 #### Настройки проекта
 
 1. В личном кабинете \( [https://unitpay.ru/partner](https://unitpay.ru/partner)\), в верхнем главном меню выберите пункт "Проекты" и нажмите "Добавить проект". Выполните все шаги для [создания нового проекта](../../first_steps/adding-project/).
