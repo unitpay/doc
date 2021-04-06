@@ -48,6 +48,7 @@
     * [ReadyScript](modules/cms-modules/readyscript.md)
     * [ShopCMS](modules/cms-modules/shopcms.md)
     * [Simpla](modules/cms-modules/simpla.md)
+    * [Tilda](modules/cms-modules/tilda.md)
     * [Netcat CMS](modules/cms-modules/netcat-cms.md)
     * [UMI.CMS](modules/cms-modules/umi.cms.md)
     * [VamShop 2](modules/cms-modules/vamshop-2.md)
