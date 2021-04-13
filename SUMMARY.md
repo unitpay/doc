@@ -92,7 +92,6 @@
   * [Получение информации по БИН](other/getbininfo.md)
   * [Telegram бот](other/telegram.md)
 * [FAQ](faq-partners/README.md)
-  * [Регистрация физ. лица](faq-partners/registration-without-legal-entity.md)
   * [Регистрация юр. лица или ИП](faq-partners/registration-legal-entity.md)
   * [Модерация проекта](faq-partners/project-approval.md)
   * [Интеграция платежного решения](faq-partners/integration-payment-solution.md)
