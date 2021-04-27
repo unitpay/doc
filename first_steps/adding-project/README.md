@@ -6,9 +6,13 @@
 
 Сразу после регистрации и подтверждения данных аккаунта, система предложит вам добавить первый проект:
 
-#### ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e590fb604286364bc95fee3/file-2Vyk3thLnE.png)
+![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e590fb604286364bc95fee3/file-2Vyk3thLnE.png)
 
 **СОВЕТ:** Проверьте, что сайт соответствует [ключевым требованиям](https://help.unitpay.ru/article/41-moderation#projectRules) платежных систем.
+
+**СОВЕТ:** Проверьте, что сайт соответствует [ключевым требованиям](https://help.unitpay.ru/article/41-moderation#projectRules) платежных систем.
+
+
 
 #### Основные сведения о проекте
 
