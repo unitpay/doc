@@ -75,7 +75,5 @@
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e590bbf04286364bc95febc/file-3nfA3GDVl9.png)
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e590bbf04286364bc95febc/file-3nfA3GDVl9.png)
-
 **НА ПЕРЕПРОВЕРКЕ:** Вы устранили недоработки и отправил сайт на перепроверку. Если рекомендации выполнены, вашему проекту будут выставлены актуальные категории. Перепроверка проекта проводится  в течение 72 часов после отправки.
 
