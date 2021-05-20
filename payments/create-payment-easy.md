@@ -75,7 +75,9 @@ https://unitpay.ru/pay/111111-11111?sum=100&account=222111&desc=Online%20course&
 ```
 
   
-   Значение PUBLIC KEY и SECRET KEY проекта можно найти на странице **Настройки** проекта![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5ec57700042863474d1b1775/file-hpo6F5M6aW.png)
+   Значение PUBLIC KEY и SECRET KEY проекта можно найти на странице **Настройки** проекта
+
+![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5ec57700042863474d1b1775/file-hpo6F5M6aW.png)
 
 **Пример формирования цифровой подписи:**
 
