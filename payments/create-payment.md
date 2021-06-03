@@ -16,7 +16,6 @@ To interact with the API, use the [Unitpay PHP-SDK](https://github.com/unitpay/p
 | **desc** | line | Order description |
 | **ip** | line | Payer's IP address |
 | **secretKey** | line | Secret key, available in the project settings |
-| **signature** | строка | Digital signature. It is formed as sha256\( account + "{up}" + currency + "{up}" + desc + "{up}" + sum + "{up}" + secretKey\),   where **sha256** is the hashing method;    **"{up}"** is the parameter separator in the hash function;  **account**, **sum**, **currency**, **desc**  are the payment initialization parameters described above;  **secretKey**  is the secret key of the project \(available in your personal account\);    **Important Note**. If you do not transmit **currency** to the payment form, this parameter should not be used in signature generation. |
 
 **Parameters depending on the type of payment:**
 
