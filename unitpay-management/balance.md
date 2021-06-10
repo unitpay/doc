@@ -1,8 +1,11 @@
 # Current Balance
 
-To interact with the API, we recommend using the [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk) library
+To interact with the API, we recommend using the [Unitpay PHP-SDK](https://github.com/unitpay/php-sdk) library:
 
-![](../.gitbook/assets/image%20%2813%29.png)
+[https://unitpay.ru/api?](https://unitpay.ru/api?)   
+     method=getPartner   
+     params\[login\]=partner@gmail.com   
+     params\[secretKey\]=ключ
 
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
@@ -11,16 +14,30 @@ To interact with the API, we recommend using the [Unitpay PHP-SDK](https://githu
 
 **Successful response**
 
-![](../.gitbook/assets/image%20%283%29.png)
+```text
+{
+    "result": {
+        "email": "partner@gmail.com",
+        "balance": "247.03",
+        "balance_payout": "245.03"
+    }
+}
+```
 
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |
-| **balance** | number | Partner's balance in rubles |
 | **email** | email | Partner's email in the UnitPay system |
+| **balance** | number | Partner's balance in rubles |
+| **balance\_payout** | number | Partner's balance**,** available for withdrawal, in rubles \(will be actual since 15.06.2021\) |
 
 **Error response**
 
-![](../.gitbook/assets/image%20%2816%29.png)
+```text
+{"error": {
+    "message": "Неверный секретный ключ",
+    "code": -32000
+}}
+```
 
 |  | **Description** |
 | :--- | :--- |
