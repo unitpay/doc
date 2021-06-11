@@ -90,7 +90,7 @@ return false;
         &#x431;&#x443;&#x434;&#x435;&#x442; &#x438;&#x434;&#x442;&#x438; &#x43E;&#x43F;&#x43B;&#x430;&#x442;&#x430;.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b> hideMenu</b>
+      <td style="text-align:left"><b>hideMenu</b>
       </td>
       <td style="text-align:left">true, false</td>
       <td style="text-align:left">&#x421;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x43C;&#x435;&#x43D;&#x44E;
