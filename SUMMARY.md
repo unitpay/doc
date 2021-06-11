@@ -11,6 +11,7 @@
 * [Payments](payments/README.md)
   * [Creating a payment \(easy way\)](payments/create-payment-easy.md)
   * [Creating a Payment](payments/create-payment.md)
+  * [Creating a payment \(widget\)](payments/creating-a-payment-widget.md)
   * [Parameters for receipts](payments/parameters-for-receipts.md)
   * [Creating Payment Links in Your Personal Account](payments/payment-links.md)
   * [Payment Handler](payments/payment-handler.md)
