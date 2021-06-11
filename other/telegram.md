@@ -1,5 +1,9 @@
 # Telegram bot
 
+Two-factor authentication allows you to effectively protect your account from unauthorized access, thereby protecting personal data - access to transaction history, project settings and financial information.   
+  
+We have two options for two-factor authentication: login with a one-time password from SMS, or confirmation of login via Telegram bot.
+
 ## Telegram bot features:
 
 * authorization confirmation
