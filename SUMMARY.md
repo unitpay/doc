@@ -65,7 +65,7 @@
     * [UCoz](modules/cms-modules/ucoz.md)
     * [VamShop 2](modules/cms-modules/vamshop-2.md)
     * [VirtueMart 3 \(joomla 3\)](modules/cms-modules/virtuemart-3-joomla-3.md)
-    * [Webasyst Shop Script 7](modules/cms-modules/webasyst-shop-script-7.md)
+    * [Webasyst Shop Script 7 \(8\)](modules/cms-modules/webasyst-shop-script-7.md)
     * [WHMCS](modules/cms-modules/whmcs.md)
     * [Woocommerce Wordpress](modules/cms-modules/woocommerce-wordpress.md)
     * [Zen Cart](modules/cms-modules/zen-cart.md)
