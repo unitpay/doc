@@ -16,4 +16,5 @@ These libraries were not checked by UnitPay specialists.
 
 * **Ruby on Rails:** [UNITPAY-GEM](https://github.com/unitpayService/rails-unitpay)
 * **Laravel:** [UNITPAY-LARAVEL](https://github.com/unitpayService/laravel-unitpay)
+* \*\*\*\*[**Node.js**](https://www.npmjs.com/package/unitpay-api)\*\*\*\*
 
