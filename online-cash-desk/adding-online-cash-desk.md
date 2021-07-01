@@ -19,5 +19,10 @@ You can:
 
 ![](../.gitbook/assets/image%20%2820%29.png)
 
-In order to generate a receipt it is necessary to send several parameters when creating a payment. More details here.
+In order to generate a receipt it is necessary to send several parameters when creating a payment.
+
+{% hint style="warning" %}
+If the online cash desk has been activated, and the required parameters have not been transferred, the payment solution won't work \(payments will be made with the error\)  
+More details you can find [here](https://help.unitpay.ru/v/master/payments/parameters-for-receipts).
+{% endhint %}
 

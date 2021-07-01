@@ -75,8 +75,8 @@
   * [Qiwi Country Codes](book-of-reference/qiwi-country-codes.md)
 * [Referral program](referral-program/README.md)
   * [Interface of Referrer's \(Agent's\) Account](referral-program/interface-of-referrer.md)
+* [Support](support.md)
 * [Other](other/README.md)
   * [Telegram bot](other/telegram.md)
   * [Using the Test API](other/using-the-test-api.md)
-* [Google Pay™](google-pay.md)
 
