@@ -12,7 +12,7 @@
 Поддерживается только для следующих онлайн-касс: Юнит.Чеки и Атол
 {% endhint %}
 
-{% api-method method="get" host="" path="https://unitpay.ru/api?method=offsetAdvance&params\[paymentId\]=paymentID&params\[secretKey\]=your\_account\_secret\_key&params\[login\]=your\_email" %}
+{% api-method method="get" host="https://unitpay.ru/api?method=offsetAdvance&params\[paymentId\]=paymentID&params\[secretKey\]=your\_account\_secret\_key&params\[login\]=your\_email" path="" %}
 {% api-method-summary %}
 offsetAdvance
 {% endapi-method-summary %}
@@ -36,7 +36,7 @@ email Партнера
 id платежа, по которому происходит зачет аванса. У платежа обязательно должны быть cashItems со способами расчёта “аванс“, “предоплата“, "предоплата 100%"
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="cashitems" type="string" required=false %}
+{% api-method-parameter name="cashItems" type="string" required=false %}
 Обязателен, если по платежу уже были произведены зачеты аванса. Если cashItems не передан, происходит зачет аванса всего платежа
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
@@ -61,7 +61,7 @@ id платежа, по которому происходит зачет ава�
 {% endapi-method %}
 
 {% hint style="info" %}
-Подробнее про формирование  cashitems [здесь](receipt_parameters.md).
+Подробнее про формирование  cashItems [здесь](receipt_parameters.md).
 {% endhint %}
 
 {% hint style="danger" %}
