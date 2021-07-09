@@ -99,7 +99,6 @@
   * [Прием платежей](faq-partners/receive-payment.md)
   * [Возврат платежей](faq-partners/chargeback.md)
   * [Выплаты юр. лицам](faq-partners/legal-entities-payouts.md)
-  * [Выплаты физ. лицам](faq-partners/individual-payouts.md)
   * [Подключение стран для оплаты банковской картой](faq-partners/add-coutry-for-payments.md)
   * [Массовые выплаты](faq-partners/massovye-vyplaty.md)
   * [Оплата по ссылке](faq-partners/link-payment.md)

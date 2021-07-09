@@ -61,7 +61,7 @@ id платежа, по которому происходит зачет ава�
 {% endapi-method %}
 
 {% hint style="info" %}
-Подробнее про формирование  cashItems [здесь](receipt_parameters.md).
+Подробнее про формирование cashItems [здесь](receipt_parameters.md).
 {% endhint %}
 
 {% hint style="danger" %}
