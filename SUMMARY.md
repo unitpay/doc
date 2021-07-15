@@ -60,7 +60,7 @@
     * [ReadyScript](modules/cms-modules/readyscript.md)
     * [Simpla](modules/cms-modules/simpla.md)
     * [ShopCMS](modules/cms-modules/shopcms.md)
-    * [Модуль Tilda](modules/cms-modules/tilda-1.md)
+    * [Tilda](modules/cms-modules/tilda-1.md)
     * [Taplink](modules/cms-modules/taplink.md)
     * [UMI.CMS](modules/cms-modules/umi.cms.md)
     * [UCoz](modules/cms-modules/ucoz.md)
