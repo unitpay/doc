@@ -1,5 +1,5 @@
 ---
-description: Модуль Tilda от Unitpay
+description: Инструкция по подключению платежей на конструкторе сайтов Tilda через Unitpay
 ---
 
 # Tilda
