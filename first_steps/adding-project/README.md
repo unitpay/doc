@@ -34,7 +34,9 @@ The system will automatically check the contents of the file with the verificati
 
 **IMPORTANT NOTE**: IP addresses from which the system makes requests to your server platform: _31.186.100.49_, _178.132.203.105_, _52.29.152.23_, _52.19.56.234_
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e5913842c7d3a7e9ae870a1/file-CZuhIRsRL4.png](../../.gitbook/assets/1%20%2827%29.png)
+![](../../.gitbook/assets/1%20%2827%29.png)
+
+If you're using website on Tilda, [click here](https://help.unitpay.ru/v/master/modules/cms-modules/tilda).
 
 To learn more about how the project is moderated, read [Project Moderation ](../moderation.md)section.
 
