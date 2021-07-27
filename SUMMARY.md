@@ -26,7 +26,7 @@
   * [Подключение Онлайн-кассы](online-cash-register/add-cash-register.md)
   * [Параметры для формирования чека](online-cash-register/receipt_parameters.md)
   * [Просмотр чека](online-cash-register/view-receipt.md)
-  * [Чек прихода аванса](online-cash-register/advance_receipt.md)
+  * [Чек зачета аванса](online-cash-register/advance_receipt.md)
 * [Готовые модули](modules/README.md)
   * [Unitpay SDK](modules/unitpay-sdk.md)
   * [Базовый обработчик платежа](modules/basic.md)
