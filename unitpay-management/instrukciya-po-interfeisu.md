@@ -69,11 +69,17 @@
 
 ![](https://lh3.googleusercontent.com/JguQnou9QPbrhvVmioie2ZVQsYy1tJAwq5cB8RRP8W2WGETS-WLYTMjOdBxUMXz9bExpRPO5sW3TisDoDaIV33HGYaGOyH-nIWZOhVxdnzOkseDWMLInlynD0HeGSTnycLT6QMnp)
 
-Далее вы попадете на страницу с перечнем документов, которые необходимо предоставить нашей поддержке на почту legal@unitpay.ru, а также заполнить формы и скачать 2 Анкеты. 
+Далее вы попадете на страницу с заполнением данных для формирования анкет \(их нужно будет скачать и приложить на следующем этапе\). 
 
-![](https://lh4.googleusercontent.com/q9FrWoLpR0M3sDo7YD1usUDY-1v9PI-NSgrDwnhzXgD9Z8lJSJBpu3rMMbVQgwEPIl6MNWRoPF8BQYWhG61T3w5FC1YxdCtocNdqK0RbNdwfnMlub70fgQNMpfO8cA2WTdSSbD7P)
+![](../.gitbook/assets/image%20%2861%29.png)
 
 ![](https://lh6.googleusercontent.com/S6L_ZdIGEiXer4pZDq1MeCijFRilYcOdlgCZYyMhsUiCoN5KtAWUnr9U-otw_MXUXXJjb1x8SpBBWHi79XZCBy8HNzpjmVov_L4W6Z7bOYyI8aH7yAQwqR4DTl3-4rh3bKnDaCRl)
+
+На следующей вкладке "Документы" вам необходимо отправить учредительные документы для заключения договора. Вам нужно выбрать необходимые заверенные сканы документов и приложить их к форме **\(сканы не нужно заверять у нотариуса, достаточно вашей подписи и печати, если она есть\)**.
+
+![](../.gitbook/assets/image%20%2859%29.png)
+
+![](../.gitbook/assets/image%20%2858%29.png)
 
 Данные документы и Анкеты мы отправляем на согласование нашим вендорам, которые создают индивидуальные лицевые счета у себя в системе, с которых будут происходить выплаты.
 
