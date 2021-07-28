@@ -67,17 +67,17 @@
 
 Для открытия выплат вам необходимо перейти на вкладку «Выплаты» и нажать кнопку «Согласиться и продолжить» \(обратите внимание, что у вас должен быть создан хотя бы 1 проект, иначе функционал выплат не откроется\). 
 
-![](https://lh3.googleusercontent.com/JguQnou9QPbrhvVmioie2ZVQsYy1tJAwq5cB8RRP8W2WGETS-WLYTMjOdBxUMXz9bExpRPO5sW3TisDoDaIV33HGYaGOyH-nIWZOhVxdnzOkseDWMLInlynD0HeGSTnycLT6QMnp)
+![](../.gitbook/assets/image%20%2859%29.png)
 
 Далее вы попадете на страницу с заполнением данных для формирования анкет \(их нужно будет скачать и приложить на следующем этапе\). 
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 ![](https://lh6.googleusercontent.com/S6L_ZdIGEiXer4pZDq1MeCijFRilYcOdlgCZYyMhsUiCoN5KtAWUnr9U-otw_MXUXXJjb1x8SpBBWHi79XZCBy8HNzpjmVov_L4W6Z7bOYyI8aH7yAQwqR4DTl3-4rh3bKnDaCRl)
 
 На следующей вкладке "Документы" вам необходимо отправить учредительные документы для заключения договора. Вам нужно выбрать необходимые заверенные сканы документов и приложить их к форме **\(сканы не нужно заверять у нотариуса, достаточно вашей подписи и печати, если она есть\)**.
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 ![](../.gitbook/assets/image%20%2858%29.png)
 
