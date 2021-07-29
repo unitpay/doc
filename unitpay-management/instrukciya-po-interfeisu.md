@@ -71,7 +71,7 @@
 
 Далее вы попадете на страницу с заполнением данных для формирования анкет \(их нужно будет скачать и приложить на следующем этапе\). 
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 ![](https://lh6.googleusercontent.com/S6L_ZdIGEiXer4pZDq1MeCijFRilYcOdlgCZYyMhsUiCoN5KtAWUnr9U-otw_MXUXXJjb1x8SpBBWHi79XZCBy8HNzpjmVov_L4W6Z7bOYyI8aH7yAQwqR4DTl3-4rh3bKnDaCRl)
 
