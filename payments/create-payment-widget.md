@@ -85,7 +85,7 @@ return false;
       <td style="text-align:left"><b>paymentType</b>
       </td>
       <td style="text-align:left">&#x441;&#x442;&#x440;&#x43E;&#x43A;&#x430;</td>
-      <td style="text-align:left"><a href="https://help.unitpay.ru/book-of-reference/payment-system-codes">&#x41A;&#x43E;&#x434; &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x436;&#x43D;&#x43E;&#x439; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B;</a>,
+      <td style="text-align:left"><a href="https://help.unitpay.money/book-of-reference/payment-system-codes">&#x41A;&#x43E;&#x434; &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x436;&#x43D;&#x43E;&#x439; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B;</a>,
         &#x447;&#x435;&#x440;&#x435;&#x437; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x443;&#x44E;
         &#x431;&#x443;&#x434;&#x435;&#x442; &#x438;&#x434;&#x442;&#x438; &#x43E;&#x43F;&#x43B;&#x430;&#x442;&#x430;.</td>
     </tr>
