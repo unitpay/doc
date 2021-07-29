@@ -9,8 +9,8 @@
 | **yandex** | ЮMoney\(former "Yandex.Money"\) | An easily accessible and secure way to pay for goods and services on the Internet |
 | **qiwi** | Qiwi | Electronic payment system, as well as a huge network of payment terminals |
 | **paypal** | PayPal | The largest e-money operator in the world |
-| **alfaClick** | Alfa-Click | The most popular and convenient Internet bank |
 | **applepay** | Apple Pay | Accepting payments by cards by means of Apple Pay |
 | **samsungpay** | Samsung Pay | Accepting payments by cards by means of Samsung Pay |
 | **googlepay** | Google Pay | Accepting payments by cards by means of Google Pay |
+| **yandexpay** | Yandex Pay | Accepting payments by cards by means of Yandex Pay |
 
