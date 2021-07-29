@@ -34,8 +34,8 @@ https://unitpay.ru/api?
 
 |  | Значение | Описание |
 | :--- | :--- | :--- |
-| phone | число | Телефон с кодом страны \(например, 79520000000\) |
-| operator | строка | Буквенный [код оператора](../book-of-reference/operator-codes.md) для SMS-биллинга. Для остальных систем оператор определяется автоматически |
+| **phone** | число | Телефон с кодом страны \(например, 79520000000\) |
+| **operator** | строка | Буквенный [код оператора](../book-of-reference/operator-codes.md) для SMS-биллинга. Для остальных систем оператор определяется автоматически |
 
   
    Значение PUBLIC KEY и SECRET KEY проекта можно найти на странице **Настройки** проекта
@@ -221,7 +221,8 @@ sub getSignature {
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">redirectUrl</td>
+      <td style="text-align:left"><b>redirectUrl</b>
+      </td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">URL &#x434;&#x43B;&#x44F; &#x43F;&#x435;&#x440;&#x435;&#x430;&#x434;&#x440;&#x435;&#x441;&#x430;&#x446;&#x438;&#x438;
         &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;
@@ -229,7 +230,8 @@ sub getSignature {
         &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B;</td>
     </tr>
     <tr>
-      <td style="text-align:left">response</td>
+      <td style="text-align:left"><b>response</b>
+      </td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">
         <p>html &#x43A;&#x43E;&#x434; &#x444;&#x43E;&#x440;&#x43C;&#x44B;, &#x430;
@@ -244,7 +246,8 @@ sub getSignature {
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">invoiceId</td>
+      <td style="text-align:left"><b>invoiceId</b>
+      </td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">id &#x441;&#x447;&#x435;&#x442;&#x430;</td>
     </tr>
