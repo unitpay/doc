@@ -35,8 +35,7 @@ https://unitpay.ru/api?
 | **phone** | число | Телефон с кодом страны \(например, 79520000000\) |
 | **operator** | строка | Буквенный [код оператора](../book-of-reference/operator-codes.md) для SMS-биллинга. Для остальных систем оператор определяется автоматически |
 
-  
-   Значение PUBLIC KEY и SECRET KEY проекта можно найти на странице **Настройки** проекта
+Значение PUBLIC KEY и SECRET KEY проекта можно найти на странице **Настройки** проекта
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5ec57700042863474d1b1775/file-hpo6F5M6aW.png)
 
