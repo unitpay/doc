@@ -39,38 +39,3 @@ Coverage area in Stores -&gt; Tax Zones and Rates
 
 ![](../../.gitbook/assets/image4%20%281%29.png)
 
-9. Promotional codes are also available. To set them up, go to the Marketing - Promotion - Cart Price Rules - Add new rule.
-
-![](../../.gitbook/assets/image%20%2864%29.png)
-
-1\) Rule name - **it's not the name of the promocode**;  
-2\) Websites - using zone \(can be set for certain sections of the site\);  
-3\) Customer groups - user groups for which this promo code is opened;  
-4\) Coupon - choose Specific coupon;  
-5\) Uses per Customer - the maximum number of promocode's uses for one authorized customer;  
-6\) Uses per Coupon - the total maximum number of this promocode's uses;
-
-Then open the Actions tab and set the actions for the promocode:
-
-![](../../.gitbook/assets/image%20%2862%29.png)
-
-Promocodes' options:
-
-1. **Discount for the whole cart in %**
-
-   Apply - Percent of product price discount, Discount Amount - discount amount,%
-
-2. **Discount for the whole cart for a certain amount**
-
-   Apply - Fixed amount discount for whole cart, Discount Amount - discount amount
-
-3. **Discount for each item from the cart for a certain amount**
-
-   Apply - Fixed amount discount, Discount Amount - discount amount
-
-   Note: the discount on the item must be less than the cost of the product from the catalog, otherwise the promocode will work with an error - you cannot provide products with a zero amount.
-
-4. Also, for each promo code, you can specify **free shipping**
-
-   Free shipping - Select - For matching items only
-
