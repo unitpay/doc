@@ -23,6 +23,7 @@
     * [Получение информации о подписке](payments/recurring-payments/subscription-info.md)
     * [Закрытие подписки](payments/recurring-payments/close-subscription.md)
 * [Онлайн-кассы](online-cash-register/README.md)
+  * [Юнит.Чеки](online-cash-register/unit.receipts.md)
   * [Подключение Онлайн-кассы](online-cash-register/add-cash-register.md)
   * [Параметры для формирования чека](online-cash-register/receipt_parameters.md)
   * [Просмотр чека](online-cash-register/view-receipt.md)
