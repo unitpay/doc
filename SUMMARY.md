@@ -26,6 +26,7 @@
 * [Online cash desk](online-cash-desk/README.md)
   * [Adding online cash desk](online-cash-desk/adding-online-cash-desk.md)
   * [Types of Online Cash Register Receipt Items](online-cash-desk/receipt-items.md)
+  * [Advance credit reciepts](online-cash-desk/advance-credit-receipts.md)
 * [Modules](modules/README.md)
   * [Payment handler](modules/basic.md)
   * [Unitpay SDK](modules/unitpay-sdk.md)
