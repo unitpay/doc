@@ -23,6 +23,8 @@ domainName: "unitpay.ru",
 signature: "2c38bb3114b2f02222ee35f6b60c6bbe628ad31bed59633787204ae59659a02e",
 desc: "Описание платежа",
 locale: "ru",
+cashItems: [{"name":"Шаурма", "count": 1, "price":sum, "type":"commodity"}],
+customerEmail: email
 });
 payment.success(function (params) {
 console.log('Успешный платеж');
@@ -190,12 +192,81 @@ return false;
 
 **Если вы подключили онлайн-кассу в личном кабинете Unitpay, то для формирования чеков необходимо дополнительно передать ряд параметров:**
 
-|  | Значение | Описание |
-| :--- | :--- | :--- |
-| **paymentId** | число | ID платежа в системе Unitpay |
-| **account** | строка | Идентификатор абонента в вашей системе, переданный на этапе вызова виджета \(e-mail абонента или номер заказа\) |
-| **orderSum** | число | Сумма заказа, например, 10.00.  Обязательно сверяйте данное значение с оригинальной суммой заказа |
-| **orderCurrency** | строка | [Валюта](https://help.unitpay.ru/book-of-reference/currency-codes) заказа |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left">&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;</th>
+      <th style="text-align:left">&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>paymentId</b>
+      </td>
+      <td style="text-align:left">&#x447;&#x438;&#x441;&#x43B;&#x43E;</td>
+      <td style="text-align:left">ID &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x436;&#x430; &#x432; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x435;
+        Unitpay</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>account</b>
+      </td>
+      <td style="text-align:left">&#x441;&#x442;&#x440;&#x43E;&#x43A;&#x430;</td>
+      <td style="text-align:left">&#x418;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;
+        &#x430;&#x431;&#x43E;&#x43D;&#x435;&#x43D;&#x442;&#x430; &#x432; &#x432;&#x430;&#x448;&#x435;&#x439;
+        &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x435;, &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x439;
+        &#x43D;&#x430; &#x44D;&#x442;&#x430;&#x43F;&#x435; &#x432;&#x44B;&#x437;&#x43E;&#x432;&#x430;
+        &#x432;&#x438;&#x434;&#x436;&#x435;&#x442;&#x430; (e-mail &#x430;&#x431;&#x43E;&#x43D;&#x435;&#x43D;&#x442;&#x430;
+        &#x438;&#x43B;&#x438; &#x43D;&#x43E;&#x43C;&#x435;&#x440; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430;)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>orderSum</b>
+      </td>
+      <td style="text-align:left">&#x447;&#x438;&#x441;&#x43B;&#x43E;</td>
+      <td style="text-align:left">&#x421;&#x443;&#x43C;&#x43C;&#x430; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430;,
+        &#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, 10.00. &#x41E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;
+        &#x441;&#x432;&#x435;&#x440;&#x44F;&#x439;&#x442;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x435;
+        &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441; &#x43E;&#x440;&#x438;&#x433;&#x438;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x439;
+        &#x441;&#x443;&#x43C;&#x43C;&#x43E;&#x439; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>orderCurrency</b>
+      </td>
+      <td style="text-align:left">&#x441;&#x442;&#x440;&#x43E;&#x43A;&#x430;</td>
+      <td style="text-align:left"><a href="https://help.unitpay.ru/book-of-reference/currency-codes">&#x412;&#x430;&#x43B;&#x44E;&#x442;&#x430;</a> &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>cashItems</b>
+      </td>
+      <td style="text-align:left">&#x441;&#x442;&#x440;&#x43E;&#x43A;&#x430;</td>
+      <td style="text-align:left">
+        <p>&#x41C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x441;&#x444;&#x43E;&#x440;&#x43C;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;,
+          &#x43A;&#x430;&#x43A; &#x432; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;
+          &#x438;&#x43B;&#x438; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x43C;&#x438;
+          &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x430;&#x43C;&#x438;:
+          <br />
+          <br />btoa(JSON.stringify([{&quot;name&quot;:&quot;&#x428;&#x430;&#x432;&#x435;&#x440;&#x43C;&#x430;&quot;,
+          &quot;count&quot;: 1, &quot;price&quot;:10.00, &quot;type&quot;:&quot;commodity&quot;}]))
+          <br
+          />________________________</p>
+        <p>const cashItems = [{ name: &apos;&#x428;&#x430;&#x443;&#x440;&#x43C;&#x430;&apos;,
+          count: 1, price: this.amount, type: &apos;commodity&apos; }];</p>
+        <p>btoa(JSON.stringify(cashItems))
+          <br />&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435; <a href="https://help.unitpay.ru/online-cash-register/receipt_parameters">&#x442;&#x443;&#x442;</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>customerEmail</b>
+      </td>
+      <td style="text-align:left">&#x441;&#x442;&#x440;&#x43E;&#x43A;&#x430;</td>
+      <td style="text-align:left">&#x42D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x43E;&#x43D;&#x43D;&#x430;&#x44F;
+        &#x43F;&#x43E;&#x447;&#x442;&#x430; &#x43A;&#x43B;&#x438;&#x435;&#x43D;&#x442;&#x430;,
+        &#x43D;&#x430; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x443;&#x44E; &#x431;&#x443;&#x434;&#x435;&#x442;
+        &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D; &#x447;&#x435;&#x43A;</td>
+    </tr>
+  </tbody>
+</table>
 
 {% hint style="warning" %}
 Если возникнут какие-то дополнительные вопросы по ходу интеграции, вы можете задать их в чате Юнит.Помощь или адресовать вопрос на partners@unitpay.ru
