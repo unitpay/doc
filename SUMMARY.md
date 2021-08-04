@@ -107,4 +107,5 @@
   * [Тарифы и лимиты](faq-partners/rates-limits.md)
   * [Онлайн-кассы](faq-partners/online-kassa.md)
   * [Чеки](faq-partners/receipts.md)
+* [Обновления](obnovleniya.md)
 
