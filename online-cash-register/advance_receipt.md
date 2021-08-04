@@ -2,8 +2,6 @@
 
 Если вы получили предоплату \(аванс\) и оказали услугу/отправили товар, то необходимо пробить 2-ой чек - чек зачета аванса. 
 
-Для этого отправьте запрос:
-
 {% hint style="info" %}
 Система не валидирует соответствие данных для чека прихода предоплаты и данных чека предоплаты. Будьте внимательны.
 {% endhint %}
@@ -11,6 +9,8 @@
 {% hint style="warning" %}
 Поддерживается только для следующих онлайн-касс: Юнит.Чеки и Атол
 {% endhint %}
+
+Для этого отправьте запрос:
 
 {% api-method method="get" host="https://unitpay.ru/api?method=offsetAdvance&params\[paymentId\]=paymentID&params\[secretKey\]=your\_account\_secret\_key&params\[login\]=your\_email" path="" %}
 {% api-method-summary %}
