@@ -28,5 +28,7 @@
 
 ![](../../.gitbook/assets/234234.png)
 
-
+{% hint style="info" %}
+В модуле поддерживаются промокоды, мультивалютность, НДС и разные [types](https://help.unitpay.ru/online-cash-register/receipt_parameters).
+{% endhint %}
 
