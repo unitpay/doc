@@ -245,8 +245,8 @@ return false;
           &#x438;&#x43B;&#x438; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x43C;&#x438;
           &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x430;&#x43C;&#x438;:
           <br />
-          <br />btoa(JSON.stringify([{&quot;name&quot;:&quot;Shaverma&quot;, &quot;count&quot;:
-          1, &quot;price&quot;:10.00, &quot;type&quot;:&quot;commodity&quot;}]))
+          <br />btoa(unescape(encodeURIComponent(JSON.stringify([{&quot;name&quot;:&quot;&#x428;&#x430;&#x432;&#x435;&#x440;&#x43C;&#x430;&quot;,
+          &quot;count&quot;: 1, &quot;price&quot;:10.00, &quot;type&quot;:&quot;commodity&quot;}]))))
           <br
           />________________________</p>
         <p>const cashItems = [{ name: &apos;Shaverma&apos;, count: 1, price: this.amount,
