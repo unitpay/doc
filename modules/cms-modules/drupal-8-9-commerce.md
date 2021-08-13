@@ -44,7 +44,7 @@
 
 9. Аналогично требуется проделать для "variation types". Commerce -&gt; Configuration -&gt; Product variation types -&gt; Edit Default -&gt; Manage fields
 
-
-
-
+{% hint style="info" %}
+В модуле поддерживаются промокоды, доставку необходимо устанавливать через дополнительный внешний модуль.
+{% endhint %}
 

@@ -20,5 +20,9 @@
 
 ![](../../.gitbook/assets/w2.png)
 
+{% hint style="info" %}
+В модуле также поддерживаются [коды маркировки товаров](https://help.unitpay.ru/online-cash-register/receipt_parameters) и промокоды, кроме автоматических правил, бонусов и подарочных сертификатов.
+{% endhint %}
+
  
 
