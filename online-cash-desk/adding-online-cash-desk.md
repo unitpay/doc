@@ -7,7 +7,7 @@ To generate checks at the same time as making payments, you need to connect an o
 You can:
 
 * buy cash desk by yourself and integrate it through unitpay
-* connect a ready-made solution - Unit.Receipts
+* connect a ready-made solution - [Unit.Receipts](https://help.unitpay.ru/online-cash-register/unit.receipts)
 
 **How to add:**
 
