@@ -22,18 +22,6 @@ After registration, you will need to confirm your email address. To do this, fol
 
 ![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/552d51d8e4b0ac24a832aaed/file-GQRmqtd8jF.png](../.gitbook/assets/0%20%2821%29.png)
 
-**Completing registration without a legal entity when selecting the Webmoney method**
-
-For successful moderation of future projects, as well as the security of receiving/withdrawing funds of a partner who cooperate with us, we have established a verification procedure, as well as verification of WMID personal data:
-
-**IMPORTANT NOTE:** At this stage, the WMID you specified during the account registration should match the WMID of authorization in the WebMoney Transfer system.
-
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/552d5866e4b0ac24a832ab02/file-25zKzAhTBv.png](../.gitbook/assets/1%20%2832%29.png)
-
-**Other identification methods for registration without a legal entity**
-
-Partners aged 18 and older who do not have a personal certificate in the WebMoney Transfer system can register an account by specifying only a mobile phone number and email address. After confirming their contact details \(phone number and email\), they will be able to set up payment acceptance. And after passing personal identification, they will be able to set up payout.
-
 To learn more about how the project moderation and **personal identification** are further performed, read the [Project Moderation and Personal Identification](moderation.md) section.
 
 To learn more about how to add your first project, read the [Adding a Project](adding-project/) section.
