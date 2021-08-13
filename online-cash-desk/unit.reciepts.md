@@ -4,27 +4,29 @@
 
 Unit.Reciepts is connected after passing the previous stages - **sending of questionnaires and founding documents** and [moderation of the project](https://help.unitpay.ru/v/master/first_steps/adding-project). 
 
-1. You have to go to Administration - Online Cash Desks - choose Unit.Reciepts.
+1. You have to go to Management - Online Cash Registers - choose Unit.Reciepts.
 
-screen
+![](../.gitbook/assets/image%20%2886%29.png)
 
 2. Then you need to choose your type of taxation and method of calculation, read the terms of the agency agreement, and click "Connect".
 
-screen
+![](../.gitbook/assets/image%20%2885%29.png)
 
-3. Press "Pay Identification Payment".
+3. Press "Make Identification Payment".
 
-screen
+![](../.gitbook/assets/image%20%2881%29.png)
 
 4. In the opened form you need to download the invoice for payment of Unit.Reciepts, pay it and send us the payment order with the status "Executed" for connection.
 
-screen
+![](../.gitbook/assets/image%20%2882%29.png)
 
-5. When we connect Unit.Reciepts to your account, you will receive a notification in your personal cabinet and in your e-mail:
+![](../.gitbook/assets/image%20%2883%29.png)
 
-screen
+5. When we connect Unit.Reciepts to your account, you will receive a notification in your personal cabinet and on your e-mail:
+
+![](../.gitbook/assets/image%20%2884%29.png)
 
 {% hint style="warning" %}
-When connecting Unit.Receipts do not forget about transferring us additional parameters that are necessary for correct work of online cash desk and payment solution. Without them the payment solution will not work!
+When connecting Unit.Receipts do not forget about transferring us additional parameters that are necessary for correct work of online cash desk and payment solution. Without [them](https://help.unitpay.ru/v/master/payments/parameters-for-receipts) the payment solution will not work!
 {% endhint %}
 
