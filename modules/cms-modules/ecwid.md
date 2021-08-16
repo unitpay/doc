@@ -22,6 +22,6 @@ _Оплата -&gt; Unitpay -&gt; Редактировать_
 ![](../../.gitbook/assets/ecw3%20%281%29.png)
 
 {% hint style="info" %}
-Официальное подробное руководство по модулю Unitpay от Ecwid можно прочесть [тут](https://support.ecwid.com/hc/ru/articles/4405021166226).
+С официальным подробным руководством по модулю Unitpay от Ecwid можно ознакомиться [тут](https://support.ecwid.com/hc/ru/articles/4405021166226).
 {% endhint %}
 
