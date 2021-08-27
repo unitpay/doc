@@ -171,8 +171,9 @@ http://your_payment_handler_address?
           /><b>method</b> is the request type (check, pay, error);
           <br /><b>params</b> are the values of the parameter from the params arra, combined
           with the &quot;{up}&quot; separator. All parameters must be pre-sorted
-          by key; the signature parameter do not participate in merging;
-          <br /><b>secretKey</b> is the project secret key (available in your personal
+          by key; the sign and signature parameters do not participate in merging;
+          <br
+          /><b>secretKey</b> is the project secret key (available in your personal
           account);</p>
         <p>Example of computing the signature for the request <a href="http://partnerurl/?method=check%20&amp;%20params%5bb%5d=bob&amp;params%5bc%5d=sam&amp;params%5ba%5d=tod"><b>http://partnerUrl?method=check &amp; params[b]=bob &amp; params[c]=sam &amp; params[a]=tod</b></a> and
           secret key <b>&quot;a1b1c1d1&quot;</b>
