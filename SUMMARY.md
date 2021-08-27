@@ -95,7 +95,7 @@
   * [Telegram бот](other/telegram.md)
 * [Служба поддержки](support.md)
 * [FAQ](faq-partners/README.md)
-  * [Как перейти на ИП с физического лица](faq-partners/fl-to--ip-transfer.md)
+  * [Как перейти на ИП с физического лица](faq-partners/fl-to-ip-transfer.md)
   * [Регистрация юр. лица или ИП](faq-partners/registration-legal-entity.md)
   * [Модерация проекта](faq-partners/project-approval.md)
   * [Интеграция платежного решения](faq-partners/integration-payment-solution.md)
