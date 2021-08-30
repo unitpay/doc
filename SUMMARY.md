@@ -74,6 +74,8 @@
     * [Zen Cart](modules/cms-modules/zen-cart.md)
 * [Личный кабинет](unitpay-management/README.md)
   * [Инструкция по интерфейсу](unitpay-management/instrukciya-po-interfeisu.md)
+  * [Пакет документов для ИП](unitpay-management/documents-ip.md)
+  * [Пакет документов для ООО](unitpay-management/documents-ooo.md)
   * [Подключение ЮMoney \(бывшие "Яндекс.Деньги"\)](unitpay-management/podklyuchenie-yandeks.dengi.md)
   * [Подключение PayPal](unitpay-management/podklyuchenie-paypal.md)
   * [Текущий баланс](unitpay-management/balance.md)
