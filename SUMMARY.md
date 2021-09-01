@@ -67,6 +67,8 @@
     * [MODX \(miniShop2\)](modules/cms-modules/modx-minishop2.md)
 * [Manage Unitpay](unitpay-management/README.md)
   * [Interface Instructions](unitpay-management/interface-instructions.md)
+  * [SP documents](unitpay-management/documents-sp.md)
+  * [Legal entity documents](unitpay-management/documents-legal-entity.md)
   * [Current Balance](unitpay-management/balance.md)
   * [Commissions](unitpay-management/commissions.md)
   * [Currency Conversion Rates](unitpay-management/conversion-rates.md)
