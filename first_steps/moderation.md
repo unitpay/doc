@@ -32,104 +32,97 @@ To learn more about how to set up payment acceptance, read the [API Payments](..
 6. The site page must contain publicly available rules/user agreement, as well as a refund policy.
 7. The site shouldn't contain information prohibited for distribution in accordance with the legislation of the Russian Federation and the rules of payment systems.
 8. The site should not contain links and banners that contradict the requirements of the current legislation of the Russian Federation, including suspicious sites \(for example, sites for adults, etc.\), as well as links from banner networks in which banners of suspicious / prohibited content may appear.
-
-
-
-   All internal links of the site must be working.
-
-
-
-    For licensed activities, the site must contain information about licenses, permits from the manufacturer, copyright holder or government agencies for the Goods sold.
+9. For licensed activities, the site must contain information about licenses, permits from the manufacturer, copyright holder or government agencies for the Goods sold.
 
 
 
    The following information must be posted on the website in the public domain:
 
-   6.1 Information about the legal entity of the Enterprise \(name, legal and actual address, TIN, contact phone number, e-mail, etc.\).
+   9.1 Information about the legal entity of the Enterprise \(name, legal and actual address, TIN, PSRN, contact phone number, e-mail, etc.\).
 
-   6.2 Conditions and procedure for the return and cancellation of the Goods / Services.
+   9.2 Conditions and procedure for the return and cancellation of the Goods / Services.
 
-   6.3 Warranty.
+   9.3 Warranty.
 
-   6.4 Terms, procedure and delivery time, as well as possible regions / countries of delivery / provision of the Goods / Services.
+   9.4 Terms, procedure and delivery time, as well as possible regions / countries of delivery / provision of the Goods / Services.
 
-   6.5 Restrictions on export activities \(if any\).
+   9.5 Restrictions on export activities \(if any\).
 
-   6.6 Price of the Goods.
+   9.6 Price of the Goods.
 
-   6.7 A full description of the consumer characteristics of the Goods being sold.
+   9.7 A full description of the consumer characteristics of the Goods being sold.
 
-   6.8 Methods of payment for the Goods.
+   9.8 Methods of payment for the Goods.
 
-   6.9 Procedure for making payment.
+   9.9 Procedure for making payment.
 
-   6.10 Information on security measures for Transactions using Card details.
+   9.10 Information on security measures for Transactions using Card details.
 
-   6.11 Clarification for buyers about the information security policy applied on the Site.
+   9.11 Clarification for buyers about the information security policy applied on the Site.
 
-   6.12 Personal data processing policy.
+   9.12 Personal data processing policy.
 
-   6.13 Registration form for the client \(data about the client who places the order\).
+   9.13 Registration form for the client \(data about the client who places the order\).
 
 
 
-   The site does not have the right to sell Products / Services that are prohibited for sale:
+   10. The site does not have the right to sell Products / Services that are prohibited for sale:
 
-   7.1 Adult Entertainment.
+   10.1 Adult Entertainment.
 
-   7.2 Child pornography.
+   10.2 Child pornography.
 
-   7.3 Charity, contributions, donations without appropriate licenses, and without a full description on the site, information about sponsors and about the foundation of the foundation.
+   10.3 Charity, contributions, donations without appropriate licenses, and without a full description on the site, information about sponsors and about the foundation of the foundation.
 
-   7.4 Sale of narcotic substances.
+   10.4 Sale of narcotic substances.
 
-   7.5 Goods / services that contradict the current legislation of the Russian Federation.
+   10.5 Goods / services that contradict the current legislation of the Russian Federation.
 
-   7.6 Sale of goods that violate the rights of the copyright holder.
+   10.6 Sale of goods that violate the rights of the copyright holder.
 
-   7.7 Dissemination of products promoting violence, ethnic strife, terrorism.
+   10.7 Dissemination of products promoting violence, ethnic strife, terrorism.
 
-   7.8 Medical consultations via the Internet.
+   10.8 Medical consultations via the Internet.
 
-   7.9 Marriage services, female and male escorts.
+   10.9 Marriage services, female and male escorts.
 
-   7.10 Sale of software without contracts with suppliers or developers of this software, confirming the license and permission to sell on the Internet.
+   10.10 Sale of software without contracts with suppliers or developers of this software, confirming the license and permission to sell on the Internet.
 
-   7.11 Sale of music files without a license from FAIR or ROMS.
+   10.11 Sale of music files without a license from FAIR or ROMS.
 
-   7.12 Medicines \(if not approved\)
+   10.12 Medicines \(if not approved\)
 
-   7.13 Illegal gambling business \(casinos, bookmakers, etc.\).
+   10.13 Illegal gambling business \(casinos, bookmakers, etc.\).
 
-   7.14 Sale of alcohol and tobacco.
+   10.14 Sale of alcohol and tobacco.
 
-   7.15 File sharing.
+   10.15 File sharing.
 
-   7.16 Telemarketing.
+   10.16 Telemarketing.
 
-   7.17 Sale of fakes, copies or replicas of goods.
+   10.17 Sale of fakes, copies or replicas of goods.
 
-   7.18 Exchangers.
+   10.18 Exchangers.
 
-   7.19 Sports Predictions.
+   10.19 Sports Predictions.
 
-   7.20 Auctions.
+   10.20 Auctions.
 
-   7.21 Loan selection services.
+   10.21 Loan selection services.
 
-   7.22 Any "magical" / psychic services.
+   10.22 Any "magical" / psychic services.
 
-   7.23 Websites selling cheat codes.
+   10.23 Websites selling cheat codes.
 
-   7.24 Bookmaker Activity.
+   10.24 Bookmaker Activity.
 
-   7.25 Financial pyramids.
+   10.25 Financial pyramids.
 
-   7.26 Attraction of investments.
+   10.26 Attraction of investments.
 
-   7.27 Selling accounts
+   10.27 Selling accounts
 
-   7.28 Draws by phone
+   10.28 Draws by phone
 
 **Requirements for projects with added VK groups/communities**
 
