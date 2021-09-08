@@ -32,7 +32,7 @@ To learn more about how to set up payment acceptance, read the [API Payments](..
 6. The site page must contain publicly available rules/user agreement, as well as a refund policy.
 7. The site shouldn't contain information prohibited for distribution in accordance with the legislation of the Russian Federation and the rules of payment systems.
 8. The site should not contain links and banners that contradict the requirements of the current legislation of the Russian Federation, including suspicious sites \(for example, sites for adults, etc.\), as well as links from banner networks in which banners of suspicious / prohibited content may appear.
-9. For licensed activities, the site must contain information about licenses, permits from the manufacturer, copyright holder or government agencies for the Goods sold.
+9. For licensed activities, the site must contain information about licenses, permits from the manufacturer, copyright holder or government agencies for all goods on the website.
 
 
 
