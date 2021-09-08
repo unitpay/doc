@@ -22,7 +22,7 @@ A full website check includes checking the operability of the site, as well as t
 
 To learn more about how to set up payment acceptance, read the [API Payments](../payments/create-payment.md) section.
 
-**Requirements for projects with their added websites**
+**Requirements for projects with their own sites**
 
 1. The site must not sell goods or services, as well as actions or omissions prohibited by law, regulations, and rules of international payment systems. 
 2. The site must have a clear description of the goods/services which payment is collected for.
@@ -31,7 +31,7 @@ To learn more about how to set up payment acceptance, read the [API Payments](..
 5. The Contacts section must be filled in with the partner's current details \(email, Skype, feedback form, etc.\).
 6. The site page must contain publicly available rules/user agreement, as well as a refund policy.
 
-**Requirements for projects with added VK groups/communities**
+**Requirements for projects with VK groups/communities**
 
 1. The VK group or community must not sell goods or services, as well as actions or omissions prohibited by law, regulations, and rules of international payment systems. 
 2. The VK group/community must explicitly state the goods/services which payment is collected for. 
@@ -40,7 +40,7 @@ To learn more about how to set up payment acceptance, read the [API Payments](..
 5. The VK group/community must be active \("live" followers, news updates, etc.\).
 6. The VK group/community must be open for content verification.
 
-**Requirements for projects with added Instagram pages**
+**Requirements for projects with Instagram pages**
 
 1. The page must not sell goods or services, as well as actions or omissions prohibited by law, regulations, and rules of international payment systems.
 2. The Instagram account page must contain all the sold products and services with their detailed description.
