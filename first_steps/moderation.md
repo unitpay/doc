@@ -22,7 +22,7 @@ A full website check includes checking the operability of the site, as well as t
 
 To learn more about how to set up payment acceptance, read the [API Payments](../payments/create-payment.md) section.
 
-**Requirements for projects with their own sites**
+**Requirements for projects with their added websites**
 
 1. The site must not sell goods or services, as well as actions or omissions prohibited by law, regulations, and rules of international payment systems. 
 2. The site must have a clear description of the goods/services which payment is collected for.
@@ -30,8 +30,108 @@ To learn more about how to set up payment acceptance, read the [API Payments](..
 4. The site must be hosted on a domain not lower than the second level, on a paid hosting.
 5. The Contacts section must be filled in with the partner's current details \(email, Skype, feedback form, etc.\).
 6. The site page must contain publicly available rules/user agreement, as well as a refund policy.
+7. The site shouldn't contain information prohibited for distribution in accordance with the legislation of the Russian Federation and the rules of payment systems.
+8. The site should not contain links and banners that contradict the requirements of the current legislation of the Russian Federation, including suspicious sites \(for example, sites for adults, etc.\), as well as links from banner networks in which banners of suspicious / prohibited content may appear.
 
-**Requirements for projects with VK groups/communities**
+
+
+   All internal links of the site must be working.
+
+
+
+    For licensed activities, the site must contain information about licenses, permits from the manufacturer, copyright holder or government agencies for the Goods sold.
+
+
+
+   The following information must be posted on the website in the public domain:
+
+   6.1 Information about the legal entity of the Enterprise \(name, legal and actual address, TIN, contact phone number, e-mail, etc.\).
+
+   6.2 Conditions and procedure for the return and cancellation of the Goods / Services.
+
+   6.3 Warranty.
+
+   6.4 Terms, procedure and delivery time, as well as possible regions / countries of delivery / provision of the Goods / Services.
+
+   6.5 Restrictions on export activities \(if any\).
+
+   6.6 Price of the Goods.
+
+   6.7 A full description of the consumer characteristics of the Goods being sold.
+
+   6.8 Methods of payment for the Goods.
+
+   6.9 Procedure for making payment.
+
+   6.10 Information on security measures for Transactions using Card details.
+
+   6.11 Clarification for buyers about the information security policy applied on the Site.
+
+   6.12 Personal data processing policy.
+
+   6.13 Registration form for the client \(data about the client who places the order\).
+
+
+
+   The site does not have the right to sell Products / Services that are prohibited for sale:
+
+   7.1 Adult Entertainment.
+
+   7.2 Child pornography.
+
+   7.3 Charity, contributions, donations without appropriate licenses, and without a full description on the site, information about sponsors and about the foundation of the foundation.
+
+   7.4 Sale of narcotic substances.
+
+   7.5 Goods / services that contradict the current legislation of the Russian Federation.
+
+   7.6 Sale of goods that violate the rights of the copyright holder.
+
+   7.7 Dissemination of products promoting violence, ethnic strife, terrorism.
+
+   7.8 Medical consultations via the Internet.
+
+   7.9 Marriage services, female and male escorts.
+
+   7.10 Sale of software without contracts with suppliers or developers of this software, confirming the license and permission to sell on the Internet.
+
+   7.11 Sale of music files without a license from FAIR or ROMS.
+
+   7.12 Medicines \(if not approved\)
+
+   7.13 Illegal gambling business \(casinos, bookmakers, etc.\).
+
+   7.14 Sale of alcohol and tobacco.
+
+   7.15 File sharing.
+
+   7.16 Telemarketing.
+
+   7.17 Sale of fakes, copies or replicas of goods.
+
+   7.18 Exchangers.
+
+   7.19 Sports Predictions.
+
+   7.20 Auctions.
+
+   7.21 Loan selection services.
+
+   7.22 Any "magical" / psychic services.
+
+   7.23 Websites selling cheat codes.
+
+   7.24 Bookmaker Activity.
+
+   7.25 Financial pyramids.
+
+   7.26 Attraction of investments.
+
+   7.27 Selling accounts
+
+   7.28 Draws by phone
+
+**Requirements for projects with added VK groups/communities**
 
 1. The VK group or community must not sell goods or services, as well as actions or omissions prohibited by law, regulations, and rules of international payment systems. 
 2. The VK group/community must explicitly state the goods/services which payment is collected for. 
@@ -40,7 +140,7 @@ To learn more about how to set up payment acceptance, read the [API Payments](..
 5. The VK group/community must be active \("live" followers, news updates, etc.\).
 6. The VK group/community must be open for content verification.
 
-**Requirements for projects with Instagram pages**
+**Requirements for projects with added Instagram pages**
 
 1. The page must not sell goods or services, as well as actions or omissions prohibited by law, regulations, and rules of international payment systems.
 2. The Instagram account page must contain all the sold products and services with their detailed description.
