@@ -33,7 +33,7 @@ You can run the query in test mode. [Learn more](../../book-of-reference/test-ap
 
 **Error response**
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%282%29%20%281%29.png)
 
 |  | **Value** | **Description** |
 | :--- | :--- | :--- |

@@ -10,7 +10,7 @@ We connect not only projects which have their own sites \([Adding a Project](./)
 
 Immediately after registering and confirming your account data, the system will offer you to add your first project:
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e590fb604286364bc95fee3/file-2Vyk3thLnE.png](../../.gitbook/assets/0%20%2848%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5e590fb604286364bc95fee3/file-2Vyk3thLnE.png](../../.gitbook/assets/0%20%281%29%20%281%29.png)
 
 **Main project data**
 

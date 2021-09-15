@@ -12,13 +12,13 @@ The module is supported in Prestashop versions 1.6 and 1.7
 
 ![versions 1.6](../../.gitbook/assets/0%20%2814%29.png)
 
-![versions 1.7](../../.gitbook/assets/izobrazhenie-20201126-091449%20%281%29.png)
+![versions 1.7](../../.gitbook/assets/izobrazhenie-20201126-091449%20%281%29%20%281%29.png)
 
 4. After successful loading, type the word "unitpay" in the quick search bar and you will find the installed module.
 
 ![versions 1.6](../../.gitbook/assets/1%20%2834%29.png)
 
-![versions 1.7](../../.gitbook/assets/izobrazhenie-20201126-103214%20%281%29.png)
+![versions 1.7](../../.gitbook/assets/izobrazhenie-20201126-103214%20%281%29%20%281%29.png)
 
 5. Click on the green Install button located to the right of the module.
 

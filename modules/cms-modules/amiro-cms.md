@@ -12,7 +12,7 @@ Feature of Amiro: after downloading the archive with the module, it must be re-a
 
 3. Select the downloaded archive tag.gz with the module as the distribution file and load it.
 
-![](../../.gitbook/assets/am1%20%281%29.png)
+![](../../.gitbook/assets/am1.png)
 
 4. Go to Service -&gt; System settings -&gt; Payment Methods.
 
@@ -28,11 +28,11 @@ Feature of Amiro: after downloading the archive with the module, it must be re-a
 
 8. In the Available Payment Methods line, click the Edit button.
 
-![](../../.gitbook/assets/am3%20%281%29.png)
+![](../../.gitbook/assets/am3%20%281%29%20%281%29.png)
 
 9. Select the necessary methods, including Unitpay, and then click Apply Changes at the bottom.
 
-![](../../.gitbook/assets/am4%20%281%29.png)
+![](../../.gitbook/assets/am4.png)
 
 10. In your Unitpay.ru account, enter the address of the payment handler [http://&lt;your](http://<your) site address&gt;/drivers/gate\_unitpay.php. Due to the features of the module, Format Error will flash red, this is normal.
 

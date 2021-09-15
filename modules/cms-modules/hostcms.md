@@ -14,7 +14,7 @@
 
 6. Next, go to the Main tab and copy the contents of the module file handlerXX.php in the Handler field
 
-![](../../.gitbook/assets/h3.jpg)
+![](../../.gitbook/assets/h3%20%281%29.jpg)
 
 7. In the name of Shop\_Payment\_System\_HandlerXX class, enter the ID you have previously remembered instead of XX.
 
