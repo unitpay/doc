@@ -85,7 +85,7 @@ https://unitpay.ru/pay/111111-11111?sum=100&account=222111&desc=Online%20course&
 
 For additional security of your payments, we perform mandatory verification of the digital signature when creating a payment. The signature guarantees protection against the substitution of the transmitted values \(e.g., changing the payment amount or order number\).
 
-![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5523ef72e4b0221aadf2588c/file-AJvZZEWITT.png](../.gitbook/assets/2%20%282%29.png)
+![https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/5523ef72e4b0221aadf2588c/file-AJvZZEWITT.png](../.gitbook/assets/2%20%282%29%20%282%29.png)
 
 <table>
   <thead>

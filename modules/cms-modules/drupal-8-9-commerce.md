@@ -10,7 +10,7 @@ The module supports working with version 8 and 9 of Drupal \(commerce\)
 
 2. install the module. to do this, go to extend - &gt; install new module. Select the archive with the module and then "Save".
 
-![](../../.gitbook/assets/d_ustanovka%20%281%29.png)
+![](../../.gitbook/assets/d_ustanovka%20%281%29%20%281%29.png)
 
 3. Go To commerce - &gt; Configuration -&gt; Payment gateway. PAYMENT GATEWAY: "Unitpay" click "edit".In the DOMAIN field, INSERT the value unitpay.ru, in thePUBLIC KEY  and SECRET KEY , copy the public and secret key from the unitpay personal account.
 

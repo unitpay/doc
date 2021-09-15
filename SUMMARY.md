@@ -87,4 +87,5 @@
   * [Google Pay™](other/google-pay.md)
   * [Telegram bot](other/telegram.md)
   * [Using the Test API](other/using-the-test-api.md)
+* [Google Pay™](google-pay.md)
 

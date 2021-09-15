@@ -1,6 +1,6 @@
 # Google Pay™
 
-### **About Google Pay**™
+**About Google Pay**™
 
 **Google Pay**™ is a fast and simple payment method that allows you to make card payments without entering card details for each payment. The card data is safely stored by **Google**™. This payment method is available for all devices \(mobile phones and computers\), regardless of the operating system and web browser.
 
@@ -8,31 +8,33 @@ Unitpay gives you a way to easily add it on your checkout page, making it more c
 
 As a merchant, you can use **Google Pay**™ via **Unitpay** checkout page or via **Google Pay**™ **API.**
 
-### Integration via **Unitpay** checkout page
+#### Integration via **Unitpay** checkout page
 
-**Google Pay**™ via **Unitpay** checkout page will be available for you after integration. 
+**Google Pay**™ via **Unitpay** checkout page will be available for you after integration.
 
-[Here ](https://help.unitpay.ru/first_steps)you can read about first steps of integration \(registration, adding a project\). 
+[Here ](https://help.unitpay.ru/first_steps)you can read about first steps of integration \(registration, adding a project\).
 
 [Here ](https://help.unitpay.ru/payments)you can read about work with payments.
 
 You can check the availability of accepting payments via **Google Pay**™ on the settings page of your project in **Unitpay**. As shown in the picture below:
 
-![](.gitbook/assets/2020-11-24_18-42-22.png)
+![](.gitbook/assets/image%20%281%29.png)
 
-The payer will see a page with the name of product, prices and **Google Pay**™ ****button:
+ The payer will see a page with the name of product, prices and **Google Pay**™ \*\*\*\*button:
 
-![](.gitbook/assets/image%20%2846%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
-### **Connection with Google Pay API**
 
-#### **Before you start**
+
+#### **Connection with Google Pay API**
+
+**Before you start**
 
 * You should register with **Google Pay**™ **API** to proceed with this integration option.
 * Your website should use HTTPS and support TLS protocol.
 * You should be registered with **Unitpay** as a merchant.
 
-#### Instruction
+**Instruction**
 
 Firstly please review the following documentation in order to get familiar with the integration process:
 
@@ -68,7 +70,7 @@ Supported authorization methods:
 ]
 ```
 
-Billing request parameter `BillingAddressParameters`is not used. 
+Billing request parameter `BillingAddressParameters`is not used.
 
 **Charging**
 
@@ -79,9 +81,7 @@ To charge the payment card stored under **Google Pay™**, in the direct method 
 
 Further processing of the request is subject to the standard payment process.
 
-{% hint style="info" %}
-If the card supports 3DS for PAN\_ONLY credentials, you will receive a redirectUrl in response, where you need to redirect the payer.
-{% endhint %}
+{% hint style="info" %} If the card supports 3DS for PAN\_ONLY credentials, you will receive a redirectUrl in response, where you need to redirect the payer. {% endhint %}
 
 Please note that it may be necessary to handle a redirect of the request to the 3D Secure authentication page.
 

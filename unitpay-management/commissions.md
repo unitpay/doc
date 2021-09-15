@@ -21,7 +21,7 @@ To interact with the API, we recommend using the [Unitpay PHP-SDK](https://githu
 
 **Error response**
 
-![](../.gitbook/assets/image%20%2828%29%20%281%29.png)
+![](../.gitbook/assets/image%20%2828%29%20%281%29%20%281%29.png)
 
 |  | **Description** |
 | :--- | :--- |
