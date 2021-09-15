@@ -111,4 +111,5 @@
   * [Онлайн-кассы](faq-partners/online-kassa.md)
   * [Чеки](faq-partners/receipts.md)
 * [Обновления](obnovleniya.md)
+* [Google Pay](google-pay.md)
 

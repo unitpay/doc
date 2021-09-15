@@ -10,7 +10,7 @@
 
 2. Установите модуль. Для этого перейдите в Extend -&gt; Install new module. Выбираете архив с модулем и далее "Сохранить".
 
-![](../../.gitbook/assets/d_ustanovka.png)
+![](../../.gitbook/assets/d_ustanovka%20%281%29.png)
 
 3. Перейдите в Commerce -&gt; Configuration -&gt; Payment gateway. PAYMENT GATEWAY: "Unitpay" Нажмите "Edit".В поле DOMAIN вставьте значение unitpay.ru, в поля PUBLIC KEY и SECRET KEY скопируйте публичный и секретный ключ из личного кабинета Unitpay.
 
