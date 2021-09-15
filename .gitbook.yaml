@@ -8,4 +8,4 @@ redirects:
     article/5-signup: first_steps/adding-project
     article/59-transfer-project: first_steps/project-transfer.md
     article/41-moderation: moderation.md
-    v/master/google-pay: google-pay
+    v/master/google-pay: v/master/other/google-pay
