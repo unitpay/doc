@@ -56,7 +56,7 @@ _**ВАЖНО!** После перехода в "боевой" режим не �
 
 | Параметр | Значение |
 | :--- | :--- |
-| **paymentType** | card  \(в тестовом режиме поддерживается только card\) |
+| **paymentType** | card  \(в тестовом режиме поддерживается только card и googlepay\) |
 | **account** | Любая строка из латинских букв и цифр |
 | **desc** | Любая строка из букв и цифр |
 
@@ -65,6 +65,7 @@ _**ВАЖНО!** После перехода в "боевой" режим не �
 | Параметр | Значение |
 | :--- | :--- |
 | **currency** | RUB  \(в тестовом режиме поддерживается только RUB\) |
+| **googlePayToken** | json в формате {"token":"yourGooglePayTokenInBase64","gateway":"unitpay"} \(для платежей с типом googlepay\) |
 
 Остальные параметры следует указывать согласно документации.
 
@@ -74,8 +75,28 @@ _**ВАЖНО!** После перехода в "боевой" режим не �
 | :--- | :--- | :--- |
 | **redirectUrl** | строка | **Тестовый** URL для переадресации пользователя на шлюз платежной платформы. Если платеж не требует переадресации, то данный параметр будет отсутствовать. |
 | **receiptUrl** | строка | **Тестовый** URL для переадресации пользователя на чек платежа. |
+| **tokenDecrypt** | строка | Строка закодированная в base64 в случае успешной дешифровки токена, либо пустая строка \(для платежей с типом googlepay\) |
 
 _Предупреждение_: в тестовом режиме переданная информация не сохраняется. Поэтому информация по платежу может отличаться от переданных значений при создании платежа. Номер чека платежа и paymentId после оплаты по реквизитам также изменятся.
+
+#### Пример токенов для платежей с типом googlepay
+
+{% tabs %}
+{% tab title="googlePayToken" %}
+```text
+{
+  "token": "eyJzaWduYXR1cmUiOiIxMjMiLCJpbnRlcm1lZGlhdGVTaWduaW5nS2V5Ijp7InNpZ25lZEtleSI6IntcImtleVZhbHVlXCI6XCJ2YWx1ZVxcdTAwM2RcXHUwMDNkXCIsXCJrZXlFeHBpcmF0aW9uXCI6XCIxOTE3MDU5MzM4MDAwXCJ9Iiwic2lnbmF0dXJlcyI6WyI0NTYiXX0sInByb3RvY29sVmVyc2lvbiI6IkVDdjIiLCJzaWduZWRNZXNzYWdlIjoie1wiZW5jcnlwdGVkTWVzc2FnZVwiOlwibWVzc2FnZVxcdTAwM2RcIixcImVwaGVtZXJhbFB1YmxpY0tleVwiOlwia2V5XFx1MDAzZFwiLFwidGFnXCI6XCJ0YWdcXHUwMDNkXCJ9In0=",
+  "gateway": "unitpay"
+}
+```
+{% endtab %}
+
+{% tab title="tokenDecrypt" %}
+```text
+eyJnYXRld2F5TWVyY2hhbnRJZCI6IklEIiwibWVzc2FnZUV4cGlyYXRpb24iOiIxOTE3MDU5NzQ5MDAwIiwibWVzc2FnZUlkIjoiMTIzNDU2IiwicGF5bWVudE1ldGhvZCI6IkNBUkQiLCJwYXltZW50TWV0aG9kRGV0YWlscyI6eyJleHBpcmF0aW9uWWVhciI6MjA1MCwiZXhwaXJhdGlvbk1vbnRoIjo2LCJwYW4iOiI0NDQ0NDQ0NDQ0NDQ0NDQ0IiwiYXV0aE1ldGhvZCI6IlBBTl9PTkxZIiwiYXNzdXJhbmNlRGV0YWlscyI6eyJjYXJkSG9sZGVyQXV0aGVudGljYXRlZCI6ZmFsc2UsImFjY291bnRWZXJpZmllZCI6dHJ1ZX19fQ==
+```
+{% endtab %}
+{% endtabs %}
 
 ### Тестовые формы
 
