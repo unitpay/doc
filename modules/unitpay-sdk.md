@@ -1,18 +1,18 @@
 # Unitpay SDK
 
-Перечень готовых библиотек для быстрой интеграции UnitPay.
+Перечень готовых библиотек для быстрой интеграции Unitpay.
 
 ### Официальная библиотека
 
-Проверенное решение, разработанное командой UnitPay.
+Проверенное решение, разработанное командой Unitpay.
 
-* **PHP:** [UNITPAY-PHP-SDK](https://github.com/unitpay/php-sdk)
-* **PYTHON**: [UNITPAY-PYTHON-SDK](https://github.com/unitpay/python-sdk)
-* **RUBY:** [UNITPAY-RUBY-SDK](https://github.com/unitpay/ruby-sdk)
+* **PHP:** [unitpay/php-sdk](https://github.com/unitpay/php-sdk)
+* **Python**: [unitpay/python-sdk](https://github.com/unitpay/python-sdk)
+* **Ruby:** [unitpay/ruby-sdk](https://github.com/unitpay/ruby-sdk)
 
 ### Библиотеки партнеров
 
-Данные библиотеки не проверялись сотрудниками UnitPay.
+Библиотеки от сторонних разработчиков.
 
 * **Ruby on Rails:** [UNITPAY-GEM](https://github.com/unitpayService/rails-unitpay)
 * **Laravel:** [UNITPAY-LARAVEL](https://github.com/unitpayService/laravel-unitpay)
