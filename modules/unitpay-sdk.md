@@ -4,7 +4,7 @@ The list of ready-to-use libraries for quick integration of UnitPay.
 
 **Official library**
 
-A proven solution developed by the UnitPay team.
+A proven solution developed by the UnitPay team (supports initPayment and getPayment methods).
 
 * **PHP:** [UNITPAY-PHP-SDK](https://github.com/unitpay/php-sdk)
 * **PYTHON**: [UNITPAY-PYTHON-SDK](https://github.com/unitpay/python-sdk)
@@ -16,5 +16,4 @@ These libraries were not checked by UnitPay specialists.
 
 * **Ruby on Rails:** [UNITPAY-GEM](https://github.com/unitpayService/rails-unitpay)
 * **Laravel:** [UNITPAY-LARAVEL](https://github.com/unitpayService/laravel-unitpay)
-* **Node.js:** [unitpay-api](https://github.com/redinggg/unitpay-api#readme)
-
+* **Node.js: **[unitpay-api](https://github.com/redinggg/unitpay-api#readme)
