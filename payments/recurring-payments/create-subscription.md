@@ -10,6 +10,10 @@ Creating a subscription includes three steps:
 2. Creating a setup fee with transmitting the additional parameter **params\[subscription]=true**
 3. Getting the subscription ID **subscriptionId** at your project's [payment handler](../payment-handler.md).
 
+{% hint style="info" %}
+Creation of a subscription is available both when using **paymentType = card** and when using **paymentType** = applepay, googlepay, yandexpay.
+{% endhint %}
+
 After successfully creating a subscription, you can debit funds from the client's card (the subscription must have the active status) using the standard mechanism of [creating payment](../create-payment.md) via the API and transmitting the subscription ID to the parameter: **params \[subscriptionId]=XXX**. The amount and frequency of debiting is determined on the partner's side.
 
 {% hint style="warning" %}
