@@ -3,7 +3,7 @@
 ### Инструкция по настройке и установке модуля.
 
 {% hint style="info" %}
-Модуль также можно скачать напрямую из [маркетплейса ](https://marketplace.cs-cart.com/priem-oplaty-cherez-unitpay.html)[DIAFAN.CMS](https://addons.diafan.ru/modules/platezhi/priem-oplaty-cherez-unitpay647/).
+Модуль также можно скачать напрямую из [маркетплейса DIAFAN.CMS](https://addons.diafan.ru/modules/platezhi/priem-oplaty-cherez-unitpay647/).
 {% endhint %}
 
 1\. Скачайте [архив](https://github.com/unitpay/diafan-module/archive/master.zip) с модулем.
