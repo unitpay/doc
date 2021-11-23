@@ -3,7 +3,9 @@
 **The Module Setup and Installation Instruction**
 
 {% hint style="info" %}
-The module can also be downloaded directly from the [DIAFAN.CMS marketplace.](https://addons.diafan.ru/modules/platezhi/priem-oplaty-cherez-unitpay647/)
+The module can be installed directly by selecting it in the "Addons" in the CMS admin panel.
+
+It can also be downloaded directly from the [DIAFAN.CMS marketplace.](https://addons.diafan.ru/modules/platezhi/priem-oplaty-cherez-unitpay647/)
 {% endhint %}
 
 1. Download the [archive](https://github.com/unitpay/diafan-module/archive/master.zip) with the module.
