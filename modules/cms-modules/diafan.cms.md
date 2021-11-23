@@ -2,21 +2,24 @@
 
 ### Инструкция по настройке и установке модуля.
 
-1. Скачайте [архив](https://github.com/unitpay/diafan-module/archive/master.zip) с модулем.
+{% hint style="info" %}
+Модуль также можно скачать напрямую из [маркетплейса ](https://marketplace.cs-cart.com/priem-oplaty-cherez-unitpay.html)[DIAFAN.CMS](https://addons.diafan.ru/modules/platezhi/priem-oplaty-cherez-unitpay647/).
+{% endhint %}
 
-2. Скопируйте содержимое директории "unitpay" из архива в корень вашего сайта.
+1\. Скачайте [архив](https://github.com/unitpay/diafan-module/archive/master.zip) с модулем.
 
-3. Перейдите в "Оплата"-&gt;"Методы оплаты" и добавьте новый метод оплаты, при выборе платежной системы укажите "Unitpay".
+2\. Скопируйте содержимое директории "unitpay" из архива в корень вашего сайта.
 
-4. Введите DOMAIN \(unitpay.ru\), PUBLIC KEY и SECRET KEY, которые вы можете взять в личном кабинете Unitpay.ru.
+3\. Перейдите в "Оплата"->"Методы оплаты" и добавьте новый метод оплаты, при выборе платежной системы укажите "Unitpay".
 
-5. В личном кабинете Unitpay.ru введите адрес обработчика платежей  [http://](http://diafan.app/payment/get/unitpay)[&lt;адрес](http://xn--%3C-8cdug0fj/) вашего сайта&gt;[/payment/get/unitpay](http://diafan.app/payment/get/unitpay)
+4\. Введите DOMAIN (unitpay.ru), PUBLIC KEY и SECRET KEY, которые вы можете взять в личном кабинете Unitpay.ru.
+
+5\. В личном кабинете Unitpay.ru введите адрес обработчика платежей  [http://](http://diafan.app/payment/get/unitpay)<адрес вашего сайта>[/payment/get/unitpay](http://diafan.app/payment/get/unitpay)
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/551a91dbe4b0221aadf24410/images/583ffc2dc6979106d3738e1d/file-cDEUFxJ665.png)
 
 {% hint style="info" %}
-НДС выставляется внутри настроек модуля в поле "НДС": none \(без НДС\), vat0 \(НДС 0%\), vat10 \(НДС 10%\), vat20 \(НДС 20%\)
+НДС выставляется внутри настроек модуля в поле "НДС": none (без НДС), vat0 (НДС 0%), vat10 (НДС 10%), vat20 (НДС 20%)
 {% endhint %}
 
 ![](../../.gitbook/assets/izobrazhenie-20201127-080939.png)
-
