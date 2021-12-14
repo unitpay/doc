@@ -6,9 +6,9 @@
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="paymentMethod" type="string" %}
-**Признак способа расчета: **
+**Признак способа расчета:**
 
-full_prepayment - предоплата 100% 
+ full_prepayment - предоплата 100% 
 
 \
 
@@ -48,10 +48,16 @@ ID платежа в системе UnitPay
 { 
     "result": {
         "message": "Возврат успешно произведен",
-}}
+}}https://unitpay.ru/api?method=refundPayment&params[paymentId]=1234512345&params[secretKey]=x6bh0qbewehfppogkz6lufartkzyv7o0&params[sum]=100.00
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+Пример запроса к API для совершения возврата:
+
+```
+https://unitpay.ru/api?method=refundPayment&params[paymentId]=1234512345&params[secretKey]=x6bh0qbewehfppogkz6lufartkzyv7o0&params[sum]=100.00
+```
 
 {% hint style="danger" %}
 По одному платежу вы можете сделать только один полный или частичный возврат.
